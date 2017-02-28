@@ -1,0 +1,301 @@
+---
+title: "Miller Chapter 4 example"
+output:
+  word_document: default
+  html_notebook: default
+  html_document: default
+---
+
+This script demonstrates the use of Cluster Analysis to identify consumer segments from a data It is modified from the script found in Figure 4.1 of Miller.
+
+In clustering models, the workflow typically involves a good deal of exploratory work, reviewing numerous model formulations before zeroing in on one that makes sense for the business. In the code below, you will see file with approximately 4,500 bank customers. 
+
+the trial-and-error exploration of models based on different combinations of independent predictors (also know as "feature selection").
+
+
+```{r, message=FALSE, warning=FALSE}
+# call in R packages for use in this study
+library(lattice)  # multivariate data visualization
+library(vcd)  # data visualization for categorical variables
+library(cluster)  # cluster analysis methods
+```
+
+The raw data is in a text file with a csv suffix, but that happens to use semicolons (;) as the separator instead of commas. Also notice in the `read.csv` command that we instruct R *not* to treat strings as factors, but leave them as character variables.
+
+In this chunk, we read the raw data, look at the `str`ucture of the data frame and the first few rows (with the `head` function).
+
+```{r}
+
+# read bank data into R, creating data frame bank
+# note that this is a semicolon-delimited file
+     sep = ";", stringsAsFactors = FALSE)
+
+# examine the structure of the bank data frame
+str(bank)
+bank <- read.csv("C:/Users/Rob/Box Sync/My R Work/BUS256/Data/bank.csv", 
+head(bank)
+```
+Tabulate the levels of several character variables. The `useNA` option includes NAs (missing) in the tables.
+
+```{r}
+table(bank$job , useNA = c("always"))
+table(bank$marital , useNA = c("always"))
+table(bank$education , useNA = c("always"))
+table(bank$default , useNA = c("always"))
+table(bank$housing , useNA = c("always"))
+table(bank$loan , useNA = c("always"))
+
+```
+
+After reviewing the job titles, we'll lump some titles together into larger groupings.
+
+```{r}
+# Type of job (admin., unknown, unemployed, management,
+# housemaid, entrepreneur, student, blue-collar, self-employed,
+# retired, technician, services)
+# put job into three major categories defining the factor variable jobtype
+# the "unknown" category is how missing data were coded for job... 
+# include these in "Other/Unknown" category/level
+white_collar_list <- c("admin.","entrepreneur","management","self-employed")  
+blue_collar_list <- c("blue-collar","services","technician")
+bank$jobtype <- rep(3, length = nrow(bank))
+bank$jobtype <- ifelse((bank$job %in% white_collar_list), 1, bank$jobtype) 
+bank$jobtype <- ifelse((bank$job %in% blue_collar_list), 2, bank$jobtype) 
+bank$jobtype <- factor(bank$jobtype, levels = c(1, 2, 3), 
+    labels = c("White Collar", "Blue Collar", "Other/Unknown"))
+with(bank, table(job, jobtype, useNA = c("always")))  # check definition   
+
+# define binary indicator variables as numeric 0/1 variables
+bank$whitecollar <- ifelse((bank$jobtype == "White Collar"), 1, 0)
+bank$bluecollar <- ifelse((bank$jobtype == "Blue Collar"), 1, 0)
+with(bank, print(table(whitecollar, bluecollar)))  # check definition
+with(bank, print(table(jobtype)))  # check definition
+```
+
+Next we create dummy indicator variables for marital status. 
+
+```{r}
+# define factor variables with labels for plotting and binary factors
+bank$marital <- factor(bank$marital, 
+    labels = c("Divorced", "Married", "Single"))
+    
+# define binary indicator variables as numeric 0/1 variables
+bank$divorced <- ifelse((bank$marital == "Divorced"), 1, 0)
+bank$married <- ifelse((bank$marital == "Married"), 1, 0)    
+with(bank, print(table(divorced, married)))  # check definition
+with(bank, print(table(marital)))  # check definition    
+ 
+```       
+
+And now, yet a bit more data pre-processing, relabeling, and data reduction.
+```{r}
+bank$education <- factor(bank$education, 
+    labels = c("Primary", "Secondary", "Tertiary", "Unknown"))
+# define binary indicator variables as numeric 0/1 variables
+bank$primary <- ifelse((bank$education == "Primary"), 1, 0)
+bank$secondary <- ifelse((bank$education == "Secondary"), 1, 0)        
+bank$tertiary <- ifelse((bank$education == "Tertiary"), 1, 0)     
+with(bank, print(table(primary, secondary, tertiary)))  # check definition
+with(bank, print(table(education)))  # check definition    
+                
+# client experience variables will not be useful for segmentation 
+# but can be referred to after segments have been defined
+bank$default <- factor(bank$default, labels = c("No", "Yes"))
+bank$housing <- factor(bank$housing, labels = c("No", "Yes"))
+bank$loan <- factor(bank$loan, labels = c("No", "Yes"))
+bank$response <- factor(bank$response, labels = c("No", "Yes"))
+```
+
+One of the challenges with cluster analysis is that the process will run very slowly if we select too many candidate variables. We also know that data tables with large numbers of rows also lead to very slow processing. 
+
+In this case, we'll subset the original data to concentrate on cases never previously contacted by sales, and we'll keep variables needed for cluster analysis and post-analysis
+
+We should really break the full sample into training and test sets, but will follow Miller's example and not do so.
+
+```{r}
+
+bankfull <- subset(bank, subset = (previous == 0),
+    select = c("response", "age", "jobtype", "marital", "education", 
+               "default", "balance", "housing", "loan", 
+               "whitecollar", "bluecollar", "divorced", "married",
+               "primary", "secondary", "tertiary"))
+
+# examine the structure of the full bank data frame
+print(str(bankfull))
+print(head(bankfull))
+
+# select subset of variables for input to cluster analysis
+data_for_clustering <- subset(bankfull,
+    select = c("age", 
+               "whitecollar", "bluecollar", 
+               "divorced", "married",
+               "primary", "secondary", "tertiary"))    
+
+```
+
+---------------------------------
+At this point, we begin the cluster analysis. In preparation, the script sets up a pdf file to receive the graphical output, rather than simply directing the output to the console or plots window.
+
+This part of the script also specifies several alternative clustering solutions. The step may take 10 minutes or more to complete
+
+```{r}
+pdf(file = "C:/Users/Rob/Box Sync/My R Work/BUS256/fig_finding_new_customers_cluster_search.pdf",
+        width = 8.5, height = 11)
+min_clusters <- 2
+max_clusters <- 20
+# evaluate alternative numbers of clusters/segments
+# we use the average silhouette width as a statistical criterion
+evaluation_vector <- NULL  # initialize evaluation vector 
+# selected algorithm is pam (partitioning around medoids)
+# with so many binary variables, manhattan distances seemed 
+# to work better than Euclidean distances
+for (number_of_clusters in min_clusters:max_clusters) {
+    try_clustering <- pam(data_for_clustering, k = number_of_clusters,
+        metric = "manhattan", stand = TRUE)
+    evaluation_vector <- rbind(evaluation_vector,
+        data.frame(number_of_clusters, 
+            average_silhouette_width = 
+                try_clustering$silinfo$avg.width))
+    # show plot for this clustering solution
+    plot(try_clustering)  # add this clustering solution to results file         
+    }        
+dev.off()  # close the pdf results file for the clustering solution    
+```
+
+Having now run through multiple models, we examine the results, looking for average silhouette width > 0.5 and the  last big jump in average silhoutte width. 
+
+We also create a summary plot comparing the clustering solutions and send it to another pdf.
+
+```{r}
+print(evaluation_vector) 
+
+
+# provide a single summary plot for the clustering solutions
+pdf(file = "C:/Users/Rob/Box Sync/My R Work/BUS256/fig_finding_new_customers_cluster_summary.pdf",
+        width = 8.5, height = 8.5)
+with(evaluation_vector, plot(number_of_clusters, 
+    average_silhouette_width))
+dev.off()  # close summary results file
+
+```
+
+After running all of this and examining the  results, we come in for a closer look at the seven-cluster model, which appears to be best.
+
+```{r}
+seven_cluster_solution <- pam(data_for_clustering, k = 8,
+        metric = "manhattan", stand = TRUE)
+pdf(file = "C:/Users/Rob/Box Sync/My R Work/BUS256/fig_finding_new_customers_seven_cluster_solution.pdf",
+    width = 8.5, height = 8.5)
+plot(seven_cluster_solution)
+dev.off()
+
+```
+
+From the silhouette plot, the first five of the seven clusters appear to be large and well-defined. The script now goes on to select the first 5 clusters.
+
+Then it creates some plots to describe the membership of different clusters. 
+
+```{r}
+
+# add the cluster membership information and select first five
+bankfull$cluster <- seven_cluster_solution$clustering
+bankpart <- subset(bankfull, subset = (cluster < 6))
+bankpart$cluster <- factor(bankpart$cluster,
+    labels = c("A", "B", "C", "D", "E"))
+
+# look at demographics across the clusters/segments
+# -----------------
+# age  Age in years
+# -----------------
+# examine relationship between age and response to promotion
+with(bankpart, print(by(age, cluster, mean)))
+
+pdf(file = "C:/Users/Rob/Box Sync/My R Work/BUS256/fig_finding_new_customers_age_lattice.pdf",     
+    width = 8.5, height = 11)
+lattice_plot_object <- histogram(~age | cluster, data = bankpart,
+    type = "density", 
+    xlab = "Age of Bank Client", layout = c(1,5))
+print(lattice_plot_object)  # responders tend to be older
+dev.off()
+               
+# -----------------------------------------------------------
+# education
+# Level of education (unknown, secondary, primary, tertiary)
+# -----------------------------------------------------------
+with(bankpart, print(table(cluster, education)))
+
+# ---------------------------------------------------------------
+# job status using jobtype
+# White Collar: admin., entrepreneur, management, self-employed  
+# Blue Collar: blue-collar, services, technician
+# Other/Unknown
+# ---------------------------------------------------------------
+with(bankpart, print(table(cluster, jobtype)))
+
+# ----------------------------------------------
+# marital status
+# Marital status (married, divorced, single)
+# [Note: ``divorced'' means divorced or widowed]
+# ----------------------------------------------
+with(bankpart, print(table(cluster, marital)))
+
+# look at bank client history across the clusters/segments
+
+# -----------------------------------------
+# default  Has credit in default? (yes, no)
+# -----------------------------------------
+with(bankpart, print(table(cluster, default)))
+
+# ------------------------------------------
+# balance  Average yearly balance (in Euros)
+# ------------------------------------------
+with(bankpart, print(by(balance, cluster, mean)))
+pdf(file = "C:/Users/Rob/Box Sync/My R Work/BUS256/fig_finding_new_customers_blance_lattice.pdf",     
+    width = 8.5, height = 11)
+lattice_plot_object <- histogram(~balance | cluster, data = bankpart,
+    type = "density", xlab = "Age of Bank Client", 
+    layout = c(1,5))
+print(lattice_plot_object)  # responders tend to be older
+dev.off()
+
+# ------------------------------------
+# housing  Has housing loan? (yes, no)
+# ------------------------------------
+with(bankpart, print(table(cluster, housing)))
+
+# ----------------------------------
+# loan  Has personal loan? (yes, no)
+# ----------------------------------
+with(bankpart, print(table(cluster, loan)))
+
+# ----------------------------------------------------
+# response  Response to term deposit offer (yes, no)
+# ----------------------------------------------------
+with(bankpart, print(table(cluster, response)))
+
+
+pdf(file = "C:/Users/Rob/Box Sync/My R Work/BUS256/fig_finding_new_customers_response_mosaic.pdf", 
+    width = 8.5, height = 8.5)
+mosaic( ~ response + cluster, data = bankpart,
+  labeling_args = list(set_varnames = c(response = "Response to Term Deposit Offer", 
+  cluster = "Segment Membership")),
+  highlighting = "response",
+  highlighting_fill = c("cornsilk","violet"),
+  rot_labels = c(left = 0, top = 0),
+  pos_labels = c("center","center"),
+  offset_labels = c(0.0,0.6))
+dev.off()
+
+# compute percentage of yes responses to term deposit offer
+response_table <- table(bankpart$cluster, bankpart$response)
+cat("\nPercentage Responses\n")
+for (i in 1:5) 
+     cat("\n", toupper(letters[i]), 
+         round(100 * response_table[i,2] / 
+             sum(response_table[i,]), digits = 1))
+
+# note the percentage of the customers receiving offers
+# for the first time falling into each of the clusters/segments
+# A = 1 ... E = 5 ...
+print(round(100 * table(bankfull$cluster) / nrow(bankfull), digits = 1))
+```

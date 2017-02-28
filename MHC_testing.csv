@@ -1,0 +1,1001 @@
+Opportunity No.,Reporting Status,Segment,Relative Strength in the segment,Profit of customer - $Mn,Sales Value - $Mn,Profit %,Joint Bid - WSES Portion
+Test1,Lost,"Logissys,Clinical research,UK",79, 1.379 , 9.6 , 36 ,56
+Test2,Lost,"Logissys,Clinical research,UK",79, 0.876 , 10.8 , 45 ,64
+Test3,Won,"Finsys,Finance,UK",77, (0.172), 8.4 , 60 ,57
+Test4,Lost,"GTMSys,Security,Singapore",73, 1.287 , 7.5 , 38 ,62
+Test5,Lost,"Lifesys,Others,Other Europe",64, 0.809 , 9.8 , 50 ,80
+Test6,Lost,"GTMSys,Security,Singapore",73, 0.773 , 5.0 , 50 ,50
+Test7,Lost,"GTMSys,Security,Singapore",73, 1.013 , 8.3 , 45 ,57
+Test8,Won,"GTMSys,Security,Singapore",73, (0.130), 9.9 , 31 ,58
+Test9,Lost,"GTMSys,Security,Singapore",73, 1.876 , 5.9 , 42 ,45
+Test10,Lost,"GTMSys,Other Govt.,Other Europe",72, 1.635 , 9.2 , 35 ,47
+Test11,Lost,"Logissys,Clinical research,UK",79, 0.677 , 12.3 , 40 ,66
+Test12,Won,"Procsys,Defense,Americas",22, 0.366 , 11.7 , 53 ,56
+Test13,Lost,"Procsys,Defense,Americas",22, 1.195 , 8.3 , 40 ,66
+Test14,Won,"GTMSys,Banks,Americas",43, 0.130 , 9.6 , 57 ,56
+Test15,Won,"Logissys,Clinical research,UK",79, 0.902 , 9.7 , 41 ,69
+Test16,Won,"GTMSys,Security,Singapore",73, 0.420 , 9.7 , 38 ,61
+Test17,Won,"Procsys,Capital Markets,Americas",28, 1.111 , 10.4 , 47 ,56
+Test18,Lost,"GTMSys,Security,Singapore",73, 1.084 , 12.3 , 54 ,52
+Test19,Lost,"GTMSys,Defense,UK",83, 1.524 , 7.1 , 37 ,59
+Test20,Lost,"LearnSys,Insurance,UK",74, 0.567 , 10.5 , 60 ,70
+Test21,Lost,"GTMSys,Defense,UK",83, 1.552 , 5.4 , 34 ,64
+Test22,Lost,"GTMSys,Insurance,UK",58, 1.171 , 8.0 , 50 ,58
+Test23,Lost,"LearnSys,Consumer goods,UK",82, 1.246 , 6.2 , 51 ,80
+Test24,Won,"GTMSys,Security,Singapore",73, (0.077), 11.3 , 50 ,74
+Test25,Lost,"Procsys,Capital Markets,Americas",28, 1.248 , 8.6 , 47 ,45
+Test26,Lost,"LearnSys,Clinical research,UK",78, 1.053 , 6.8 , 39 ,74
+Test27,Lost,"GTMSys,Security,Singapore",73, 1.695 , 6.8 , 45 ,63
+Test28,Lost,"GTMSys,Security,Singapore",73, 1.101 , 6.4 , 61 ,59
+Test29,Lost,"GTMSys,Security,Singapore",73, 0.748 , 8.8 , 46 ,58
+Test30,Won,"Finsys,Capital Markets,UK",60, 0.266 , 11.0 , 31 ,80
+Test31,Lost,"GTMSys,Security,Singapore",73, 0.829 , 9.0 , 43 ,58
+Test32,Won,"LearnSys,Clinical research,UK",78, 0.375 , 7.4 , 48 ,68
+Test33,Lost,"GTMSys,Security,Singapore",73, 1.171 , 7.1 , 49 ,41
+Test34,Lost,"GTMSys,Agriculture,Other Europe",26, 1.768 , 10.3 , 39 ,45
+Test35,Lost,"GTMSys,Security,Singapore",73, 1.683 , 6.5 , 55 ,66
+Test36,Won,"GTMSys,Others,Africa",39, 0.439 , 12.7 , 44 ,61
+Test37,Lost,"GTMSys,Security,Singapore",73, 1.457 , 8.3 , 42 ,61
+Test38,Lost,"LearnSys,Consumer goods,UK",82, 0.676 , 9.8 , 61 ,52
+Test39,Lost,"GTMSys,Security,Singapore",73, 1.010 , 8.0 , 49 ,66
+Test40,Lost,"LearnSys,Insurance,UK",74, 1.206 , 9.5 , 59 ,55
+Test41,Lost,"GTMSys,Security,Singapore",73, 1.244 , 9.0 , 59 ,65
+Test42,Lost,"GTMSys,Security,Singapore",73, 0.797 , 7.6 , 66 ,64
+Test43,Lost,"GTMSys,Security,Singapore",73, 1.059 , 10.6 , 39 ,62
+Test44,Lost,"GTMSys,Security,Singapore",73, 1.292 , 7.3 , 44 ,69
+Test45,Won,"GTMSys,Defense,Other Europe",30, 0.556 , 7.8 , 56 ,70
+Test46,Lost,"GTMSys,Defense,Americas",50, 1.838 , 8.5 , 58 ,62
+Test47,Won,"Procsys,White goods,UK",15, 1.391 , 8.2 , 34 ,62
+Test48,Lost,"GTMSys,Security,Singapore",73, 0.595 , 8.8 , 65 ,53
+Test49,Won,"Finsys,Others,Other Europe",18, 1.019 , 11.2 , 41 ,56
+Test50,Lost,"GTMSys,Defense,Africa",25, 1.437 , 13.1 , 52 ,59
+Test51,Lost,"GTMSys,Defense,UK",83, 1.789 , 7.9 , 46 ,61
+Test52,Won,"Lifesys,Capital Markets,UK",27, 1.451 , 11.3 , 40 ,66
+Test53,Lost,"GTMSys,Health,UK",67, 1.391 , 12.2 , 29 ,50
+Test54,Lost,"GTMSys,Security,Singapore",73, 1.481 , 8.3 , 44 ,57
+Test55,Won,"Procsys,Consumer goods,UK",53, 0.834 , 11.2 , 55 ,56
+Test56,Lost,"Finsys,Capital Markets,UK",60, 1.376 , 8.4 , 48 ,48
+Test57,Lost,"GTMSys,Security,Singapore",73, 1.242 , 11.5 , 48 ,66
+Test58,Lost,"Finsys,Capital Markets,Other Europe",57, 1.463 , 8.7 , 47 ,49
+Test59,Won,"Lifesys,Others,Other Europe",64, 0.469 , 7.7 , 40 ,67
+Test60,Lost,"GTMSys,Defense,UK",83, 1.256 , 11.3 , 50 ,80
+Test61,Lost,"Finsys,Capital Markets,Other Europe",57, 0.869 , 10.9 , 45 ,57
+Test62,Lost,"Procsys,Insurance,UK",75, 1.329 , 10.5 , 35 ,43
+Test63,Won,"Finsys,Insurance,UK",31, 1.256 , 9.0 , 56 ,68
+Test64,Won,"Procsys,Security,UK",76, (0.213), 11.0 , 36 ,56
+Test65,Won,"Finsys,Capital Markets,Other Europe",57, 0.793 , 8.8 , 49 ,67
+Test66,Won,"Procsys,Capital Markets,UK",71, 0.198 , 9.4 , 53 ,66
+Test67,Lost,"GTMSys,Security,Singapore",73, 0.628 , 9.2 , 49 ,62
+Test68,Won,"GTMSys,Banks,UK",61, 0.694 , 9.8 , 54 ,73
+Test69,Won,"LearnSys,Insurance,UK",74, 0.614 , 9.5 , 34 ,62
+Test70,Lost,"GTMSys,Defense,UK",83, 0.564 , 6.6 , 49 ,60
+Test71,Lost,"Procsys,Security,Americas",68, 1.533 , 13.0 , 54 ,80
+Test72,Lost,"Lifesys,Others,Other Europe",64, 1.599 , 12.4 , 44 ,63
+Test73,Lost,"Finsys,Capital Markets,Other Europe",57, 0.288 , 10.9 , 37 ,64
+Test74,Won,"Procsys,Security,India",44, 0.955 , 8.6 , 32 ,51
+Test75,Won,"Procsys,Security,India",44, 0.947 , 7.8 , 41 ,64
+Test76,Lost,"Procsys,Security,India",44, 1.841 , 6.1 , 49 ,52
+Test77,Won,"Finsys,Capital Markets,Other Europe",57, 0.491 , 6.8 , 40 ,49
+Test78,Lost,"Finsys,Capital Markets,Other Europe",57, 1.361 , 10.8 , 57 ,59
+Test79,Won,"Finsys,Capital Markets,Other Europe",57, 1.010 , 8.4 , 40 ,63
+Test80,Lost,"Finsys,Capital Markets,Other Europe",57, 1.142 , 6.2 , 58 ,55
+Test81,Won,"Finsys,Capital Markets,Other Europe",57, 0.405 , 7.3 , 38 ,62
+Test82,Won,"Finsys,Capital Markets,Other Europe",57, 1.499 , 10.7 , 19 ,52
+Test83,Won,"Logissys,Clinical research,UK",79, 0.863 , 9.5 , 33 ,71
+Test84,Lost,"Procsys,Security,Americas",68, 1.148 , 7.6 , 36 ,63
+Test85,Won,"Finsys,Capital Markets,Other Europe",57, 0.561 , 8.8 , 54 ,71
+Test86,Lost,"Procsys,Insurance,UK",75, 1.152 , 7.4 , 51 ,67
+Test87,Won,"Finsys,Capital Markets,Other Europe",57, 0.361 , 7.8 , 43 ,71
+Test88,Won,"Finsys,Finance,UK",77, 0.239 , 9.7 , 35 ,57
+Test89,Won,"Lifesys,Consumer goods,UK",46, 1.455 , 6.9 , 22 ,72
+Test90,Lost,"Finsys,Finance,UK",77, 1.214 , 7.1 , 51 ,61
+Test91,Lost,"GTMSys,Other Govt.,Other Europe",72, 1.255 , 7.7 , 56 ,53
+Test92,Lost,"Finsys,Capital Markets,Other Europe",57, 1.443 , 8.1 , 45 ,65
+Test93,Lost,"Finsys,Capital Markets,Other Europe",57, 1.031 , 9.4 , 51 ,39
+Test94,Lost,"Procsys,Capital Markets,UK",71, 1.196 , 5.9 , 45 ,70
+Test95,Lost,"Finsys,Capital Markets,Other Europe",57, 1.759 , 10.3 , 40 ,54
+Test96,Won,"Finsys,Capital Markets,Other Europe",57, 0.807 , 9.1 , 45 ,52
+Test97,Won,"Procsys,Insurance,UK",75, 0.183 , 10.9 , 35 ,46
+Test98,Won,"Procsys,Mobility,Canada",29, 1.225 , 8.4 , 57 ,59
+Test99,Won,"Procsys,Insurance,UK",75, 0.447 , 10.6 , 48 ,47
+Test100,Won,"Finsys,Capital Markets,Other Europe",57, 0.827 , 9.7 , 53 ,66
+Test101,Lost,"Finsys,Consumer goods,UK",54, 1.543 , 5.3 , 37 ,53
+Test102,Lost,"GTMSys,Defense,UK",83, 1.096 , 13.4 , 48 ,63
+Test103,Lost,"Finsys,Capital Markets,Other Europe",57, 1.306 , 7.2 , 36 ,46
+Test104,Won,"Finsys,Capital Markets,Other Europe",57, (0.027), 12.1 , 60 ,52
+Test105,Lost,"GTMSys,Security,Singapore",73, 1.261 , 8.3 , 41 ,41
+Test106,Lost,"Finsys,Finance,UK",77, 1.066 , 8.7 , 52 ,48
+Test107,Won,"Finsys,Finance,UK",77, 0.081 , 8.5 , 52 ,60
+Test108,Lost,"Lifesys,Others,Other Europe",64, 1.569 , 11.5 , 27 ,74
+Test109,Won,"Finsys,Insurance,UK",31, 1.156 , 6.7 , 46 ,65
+Test110,Lost,"Finsys,Finance,UK",77, 0.467 , 4.7 , 53 ,57
+Test111,Lost,"LearnSys,Consumer goods,UK",82, 1.241 , 5.9 , 63 ,38
+Test112,Won,"Finsys,Insurance,UK",31, 0.407 , 10.1 , 45 ,67
+Test113,Won,"Finsys,Insurance,UK",31, 1.188 , 8.7 , 49 ,43
+Test114,Won,"Finsys,Insurance,UK",31, 0.892 , 9.8 , 57 ,63
+Test115,Lost,"LearnSys,Insurance,UK",74, 1.595 , 9.2 , 37 ,100
+Test116,Lost,"Procsys,Capital Markets,UK",71, 1.686 , 8.8 , 66 ,59
+Test117,Won,"Finsys,Insurance,UK",31, 0.641 , 2.9 , 38 ,69
+Test118,Won,"Procsys,Mobility,Canada",29, 1.225 , 14.1 , 40 ,42
+Test119,Won,"Procsys,White goods,Japan",21, 0.914 , 9.7 , 54 ,64
+Test120,Won,"Finsys,Insurance,UK",31, 0.691 , 6.4 , 37 ,73
+Test121,Lost,"LearnSys,Clinical research,UK",78, 1.659 , 9.6 , 54 ,66
+Test122,Won,"Finsys,Capital Markets,Other Europe",57, 0.608 , 6.6 , 45 ,64
+Test123,Won,"Finsys,Insurance,UK",31, 1.214 , 8.8 , 32 ,72
+Test124,Lost,"GTMSys,Others,Other Europe",69, 1.856 , 6.9 , 46 ,54
+Test125,Won,"Finsys,Insurance,UK",31, 0.595 , 6.9 , 39 ,49
+Test126,Won,"Finsys,Insurance,UK",31, 1.244 , 8.5 , 52 ,58
+Test127,Lost,"Lifesys,Others,Other Europe",64, 1.559 , 11.0 , 33 ,55
+Test128,Lost,"Lifesys,Others,Other Europe",64, 1.445 , 8.2 , 47 ,38
+Test129,Lost,"Finsys,Insurance,UK",31, 1.409 , 6.9 , 52 ,46
+Test130,Lost,"Procsys,Insurance,UK",75, 0.904 , 9.0 , 41 ,48
+Test131,Won,"Finsys,Insurance,UK",31, 1.815 , 10.0 , 29 ,50
+Test132,Lost,"GTMSys,Health,UK",67, 1.102 , 10.6 , 49 ,55
+Test133,Lost,"Procsys,Insurance,UK",75, 0.694 , 10.6 , 52 ,52
+Test134,Won,"LearnSys,Consumer goods,UK",82, 1.277 , 9.4 , 30 ,53
+Test135,Lost,"Finsys,Finance,UK",77, 0.887 , 11.0 , 61 ,63
+Test136,Won,"Finsys,Insurance,UK",31, 1.225 , 10.4 , 44 ,80
+Test137,Lost,"Finsys,Finance,UK",77, 1.524 , 7.8 , 36 ,64
+Test138,Won,"Logissys,Clinical research,UK",79, 0.207 , 10.5 , 45 ,73
+Test139,Won,"Finsys,Insurance,UK",31, 0.815 , 8.3 , 56 ,57
+Test140,Won,"Finsys,Insurance,UK",31, 0.838 , 10.6 , 38 ,74
+Test141,Won,"Finsys,Insurance,UK",31, 1.329 , 12.4 , 30 ,44
+Test142,Lost,"Procsys,Capital Markets,UK",71, 0.686 , 4.1 , 60 ,62
+Test143,Won,"Finsys,Insurance,UK",31, 0.750 , 7.5 , 48 ,41
+Test144,Won,"Finsys,Insurance,UK",31, (0.048), 9.1 , 49 ,56
+Test145,Won,"Finsys,Insurance,UK",31, 1.150 , 8.6 , 34 ,63
+Test146,Won,"GTMSys,Clinical research,UK",23, 1.547 , 10.1 , 56 ,62
+Test147,Won,"GTMSys,Clinical research,UK",23, 0.195 , 8.3 , 29 ,65
+Test148,Won,"Finsys,Insurance,UK",31, 0.266 , 11.4 , 34 ,60
+Test149,Won,"Finsys,Insurance,UK",31, 0.969 , 7.7 , 42 ,54
+Test150,Won,"Finsys,Insurance,UK",31, 1.225 , 9.4 , 35 ,80
+Test151,Won,"GTMSys,Clinical research,UK",23, 0.750 , 13.2 , 28 ,51
+Test152,Won,"Logissys,Clinical research,UK",79, 0.303 , 7.9 , 31 ,54
+Test153,Won,"Finsys,Insurance,UK",31, 0.604 , 9.4 , 42 ,63
+Test154,Won,"GTMSys,Defense,UK",83, 0.290 , 9.6 , 33 ,72
+Test155,Lost,"GTMSys,Banks,Singapore",65, 1.447 , 9.4 , 33 ,42
+Test156,Won,"GTMSys,Health,UK",67, 0.763 , 8.9 , 33 ,65
+Test157,Lost,"Finsys,Finance,UK",77, 0.243 , 9.1 , 49 ,47
+Test158,Won,"GTMSys,Finance,UK",55, 0.117 , 9.2 , 58 ,55
+Test159,Won,"LearnSys,Capital Markets,UK",40, (0.055), 7.9 , 24 ,55
+Test160,Lost,"Finsys,Insurance,UK",31, 1.955 , 8.3 , 54 ,60
+Test161,Won,"Finsys,Insurance,UK",31, 0.335 , 9.2 , 42 ,58
+Test162,Lost,"GTMSys,Security,UK",32, 1.732 , 11.5 , 41 ,52
+Test163,Lost,"Lifesys,Others,Other Europe",64, 0.787 , 9.8 , 51 ,56
+Test164,Won,"GTMSys,Security,UK",32, 0.250 , 8.1 , 30 ,62
+Test165,Lost,"Lifesys,Others,Other Europe",64, 0.781 , 9.9 , 59 ,57
+Test166,Won,"LearnSys,Capital Markets,UK",40, 0.936 , 12.8 , 39 ,55
+Test167,Lost,"GTMSys,Defense,UK",83, 1.118 , 7.6 , 38 ,69
+Test168,Lost,"Procsys,Insurance,UK",75, 1.350 , 8.9 , 33 ,38
+Test169,Won,"GTMSys,Security,UK",32, 0.347 , 9.3 , 52 ,57
+Test170,Won,"GTMSys,Security,UK",32, 0.561 , 8.4 , 40 ,63
+Test171,Won,"LearnSys,Capital Markets,UK",40, 0.768 , 7.3 , 51 ,52
+Test172,Won,"GTMSys,Security,UK",32, 1.401 , 7.9 , 36 ,62
+Test173,Lost,"GTMSys,Security,UK",32, 2.550 , 6.0 , 38 ,60
+Test174,Lost,"GTMSys,Telecom equipments,Spain",66, 0.906 , 7.6 , 61 ,52
+Test175,Won,"GTMSys,Security,UK",32, 1.046 , 11.5 , 41 ,61
+Test176,Won,"GTMSys,Security,UK",32, 0.359 , 8.7 , 34 ,36
+Test177,Lost,"GTMSys,Security,UK",32, 1.722 , 9.1 , 45 ,61
+Test178,Lost,"GTMSys,Other Govt.,Other Europe",72, 1.373 , 11.2 , 38 ,57
+Test179,Won,"GTMSys,Security,UK",32, 1.181 , 10.8 , 47 ,63
+Test180,Won,"GTMSys,Security,UK",32, 1.169 , 6.8 , 48 ,65
+Test181,Won,"GTMSys,Security,UK",32, 1.083 , 5.9 , 36 ,51
+Test182,Won,"GTMSys,Security,UK",32, 1.103 , 8.8 , 36 ,54
+Test183,Lost,"LearnSys,Clinical research,UK",78, 1.181 , 9.3 , 35 ,42
+Test184,Lost,"GTMSys,Insurance,UK",58, 0.845 , 8.8 , 66 ,70
+Test185,Lost,"Lifesys,Capital Markets,UK",27, 1.779 , 8.8 , 50 ,61
+Test186,Lost,"Logissys,Clinical research,UK",79, 1.000 , 9.4 , 50 ,47
+Test187,Won,"GTMSys,Security,UK",32, 0.654 , 7.6 , 46 ,60
+Test188,Lost,"GTMSys,Security,UK",32, 1.448 , 8.8 , 45 ,47
+Test189,Lost,"GTMSys,Capital Markets,UK",48, 1.249 , 10.9 , 45 ,67
+Test190,Lost,"Procsys,Capital Markets,UK",71, 1.452 , 9.1 , 62 ,56
+Test191,Won,"GTMSys,Security,UK",32, 0.462 , 7.0 , 23 ,59
+Test192,Won,"GTMSys,Security,UK",32, 1.010 , 9.0 , 31 ,67
+Test193,Won,"GTMSys,Security,Singapore",73, 0.783 , 7.8 , 49 ,66
+Test194,Won,"GTMSys,Security,UK",32, 1.603 , 12.0 , 30 ,80
+Test195,Won,"GTMSys,Security,UK",32, 1.408 , 8.1 , 50 ,80
+Test196,Won,"GTMSys,Security,UK",32, 0.749 , 8.5 , 48 ,50
+Test197,Lost,"Procsys,Capital Markets,UK",71, 0.776 , 10.4 , 57 ,74
+Test198,Won,"GTMSys,Security,UK",32, 0.792 , 9.9 , 63 ,50
+Test199,Lost,"Finsys,Capital Markets,Other Europe",57, 1.603 , 7.8 , 37 ,57
+Test200,Won,"GTMSys,Security,UK",32, 0.340 , 8.8 , 59 ,80
+Test201,Lost,"GTMSys,Defense,UK",83, 0.729 , 9.6 , 57 ,65
+Test202,Lost,"Procsys,Capital Markets,UK",71, 1.515 , 7.8 , 29 ,68
+Test203,Lost,"Finsys,Capital Markets,Other Europe",57, 1.716 , 8.7 , 51 ,59
+Test204,Won,"Procsys,Capital Markets,Americas",28, 0.917 , 7.8 , 38 ,68
+Test205,Lost,"GTMSys,Insurance,UK",58, 1.408 , 6.9 , 38 ,69
+Test206,Lost,"GTMSys,Banks,Americas",43, 1.723 , 8.8 , 29 ,55
+Test207,Won,"GTMSys,Security,UK",32, 0.765 , 9.1 , 39 ,59
+Test208,Won,"GTMSys,Banks,Americas",43, 1.078 , 9.7 , 54 ,100
+Test209,Won,"Procsys,Other Govt.,Japan",33, 0.208 , 11.3 , 67 ,61
+Test210,Won,"GTMSys,Security,UK",32, 1.047 , 10.9 , 48 ,51
+Test211,Lost,"GTMSys,Security,UK",32, 1.831 , 8.4 , 43 ,47
+Test212,Lost,"GTMSys,Insurance,UK",58, 1.343 , 7.4 , 42 ,62
+Test213,Won,"GTMSys,Security,UK",32, 1.114 , 11.7 , 50 ,69
+Test214,Lost,"GTMSys,Security,UK",32, 1.955 , 10.2 , 64 ,64
+Test215,Lost,"Procsys,Security,UK",76, 0.482 , 8.7 , 46 ,69
+Test216,Lost,"LearnSys,Consumer goods,UK",82, 1.906 , 8.5 , 50 ,63
+Test217,Won,"GTMSys,Security,UK",32, 0.855 , 5.3 , 54 ,49
+Test218,Won,"Finsys,Capital Markets,Other Europe",57, 0.387 , 10.5 , 51 ,69
+Test219,Lost,"GTMSys,Security,Singapore",73, 0.622 , 8.9 , 57 ,54
+Test220,Lost,"GTMSys,Defense,UK",83, 1.390 , 9.6 , 37 ,55
+Test221,Lost,"GTMSys,Other Govt.,Other Europe",72, 1.010 , 6.4 , 35 ,70
+Test222,Lost,"GTMSys,Security,Singapore",73, 0.717 , 7.1 , 49 ,45
+Test223,Lost,"GTMSys,Security,UK",32, 1.457 , 8.1 , 47 ,56
+Test224,Lost,"GTMSys,Other Govt.,Other Europe",72, 0.992 , 9.2 , 56 ,55
+Test225,Won,"GTMSys,Security,UK",32, 1.185 , 7.8 , 29 ,58
+Test226,Lost,"LearnSys,Consumer goods,UK",82, 0.942 , 7.2 , 51 ,46
+Test227,Lost,"Procsys,Capital Markets,UK",71, 1.021 , 9.8 , 53 ,56
+Test228,Lost,"LearnSys,Insurance,UK",74, 1.140 , 9.3 , 53 ,62
+Test229,Lost,"Finsys,Consumer goods,UK",54, 1.190 , 9.8 , 50 ,67
+Test230,Won,"GTMSys,Others,Africa",39, 1.306 , 13.1 , 42 ,58
+Test231,Won,"GTMSys,Agriculture,Other Europe",26, 1.073 , 9.6 , 39 ,60
+Test232,Won,"GTMSys,Security,UK",32, 1.131 , 8.8 , 47 ,60
+Test233,Won,"Procsys,Security,India",44, 0.545 , 8.9 , 42 ,58
+Test234,Won,"GTMSys,Security,UK",32, 0.886 , 10.2 , 55 ,59
+Test235,Won,"GTMSys,Others,Africa",39, 0.608 , 5.5 , 59 ,52
+Test236,Won,"LearnSys,Energy,UK",42, 0.942 , 7.0 , 32 ,58
+Test237,Lost,"LearnSys,Insurance,UK",74, 0.874 , 11.7 , 52 ,48
+Test238,Won,"GTMSys,Security,UK",32, 1.369 , 9.7 , 28 ,51
+Test239,Won,"GTMSys,Security,UK",32, 0.971 , 8.8 , 47 ,70
+Test240,Won,"GTMSys,Security,UK",32, 1.686 , 11.3 , 56 ,59
+Test241,Won,"GTMSys,Security,UK",32, 1.395 , 10.4 , 36 ,53
+Test242,Won,"GTMSys,Defense,UK",83, 1.561 , 7.5 , 56 ,71
+Test243,Won,"GTMSys,Security,UK",32, 1.457 , 8.9 , 44 ,53
+Test244,Lost,"Procsys,Consumer goods,UK",53, 1.481 , 10.6 , 49 ,63
+Test245,Lost,"GTMSys,Defense,UK",83, 1.400 , 7.5 , 51 ,65
+Test246,Lost,"GTMSys,Defense,UK",83, 1.628 , 7.2 , 41 ,80
+Test247,Lost,"LearnSys,Consumer goods,UK",82, 1.607 , 10.6 , 34 ,60
+Test248,Lost,"Procsys,Security,UK",76, 1.505 , 9.5 , 35 ,80
+Test249,Lost,"Logissys,Clinical research,UK",79, 1.116 , 9.7 , 68 ,54
+Test250,Won,"GTMSys,Security,UK",32, 0.935 , 6.9 , 41 ,68
+Test251,Won,"GTMSys,Security,UK",32, 0.122 , 7.3 , 61 ,60
+Test252,Lost,"GTMSys,Security,UK",32, 1.475 , 8.0 , 51 ,56
+Test253,Won,"GTMSys,Security,UK",32, 0.448 , 8.0 , 46 ,69
+Test254,Won,"GTMSys,Security,UK",32, 1.225 , 7.3 , 48 ,100
+Test255,Lost,"LearnSys,Banks,Africa",45, 1.490 , 10.4 , 63 ,46
+Test256,Lost,"Procsys,Consumer goods,UK",53, 0.673 , 9.4 , 66 ,64
+Test257,Lost,"GTMSys,Defense,Japan",63, 1.192 , 8.6 , 49 ,59
+Test258,Won,"GTMSys,Security,UK",32, 1.478 , 8.5 , 41 ,57
+Test259,Lost,"GTMSys,Security,UK",32, 2.306 , 8.2 , 59 ,56
+Test260,Lost,"GTMSys,Defense,UK",83, 0.914 , 8.3 , 40 ,69
+Test261,Won,"Finsys,Others,Other Europe",18, 1.526 , 9.1 , 49 ,61
+Test262,Lost,"GTMSys,Other Govt.,Other Europe",72, 1.941 , 9.3 , 35 ,40
+Test263,Won,"GTMSys,Security,Singapore",73, 0.917 , 11.0 , 36 ,72
+Test264,Won,"LearnSys,Insurance,UK",74, 0.055 , 9.4 , 47 ,59
+Test265,Lost,"Finsys,Capital Markets,Other Europe",57, 1.170 , 10.0 , 33 ,43
+Test266,Lost,"LearnSys,Consumer goods,UK",82, 1.416 , 12.8 , 52 ,68
+Test267,Won,"GTMSys,Others,Africa",39, 0.177 , 10.8 , 16 ,63
+Test268,Lost,"LearnSys,Energy,UK",42, 2.112 , 10.1 , 56 ,69
+Test269,Won,"Lifesys,Consumer goods,UK",46, 1.636 , 10.1 , 21 ,67
+Test270,Won,"GTMSys,Security,UK",32, 1.383 , 11.1 , 42 ,52
+Test271,Won,"Lifesys,Consumer goods,UK",46, 0.444 , 8.9 , 47 ,67
+Test272,Won,"LearnSys,Banks,Africa",45, 0.458 , 9.2 , 13 ,57
+Test273,Won,"GTMSys,Others,Americas",38, 0.931 , 10.0 , 35 ,66
+Test274,Won,"LearnSys,Consumer goods,UK",82, 0.271 , 8.2 , 41 ,73
+Test275,Won,"GTMSys,Security,UK",32, 0.990 , 7.8 , 55 ,62
+Test276,Won,"GTMSys,Security,UK",32, 0.974 , 9.6 , 56 ,73
+Test277,Lost,"Procsys,Clinical research,UK",70, 0.613 , 8.5 , 50 ,73
+Test278,Lost,"Procsys,Clinical research,UK",70, 1.260 , 6.7 , 34 ,54
+Test279,Won,"GTMSys,Security,UK",32, 1.210 , 8.8 , 48 ,68
+Test280,Won,"GTMSys,Security,UK",32, 1.168 , 9.9 , 53 ,70
+Test281,Won,"GTMSys,Security,UK",32, 0.693 , 9.8 , 54 ,68
+Test282,Lost,"Lifesys,Consumer goods,UK",46, 1.553 , 7.8 , 61 ,64
+Test283,Won,"GTMSys,Capital Markets,Other Europe",41, 0.900 , 9.1 , 50 ,69
+Test284,Lost,"GTMSys,Banks,Africa",52, 1.337 , 10.3 , 58 ,80
+Test285,Won,"GTMSys,Banks,Africa",52, 0.712 , 8.1 , 21 ,42
+Test286,Lost,"GTMSys,Banks,Africa",52, 0.714 , 8.2 , 59 ,50
+Test287,Lost,"GTMSys,Banks,Africa",52, 1.462 , 7.8 , 54 ,62
+Test288,Won,"GTMSys,Banks,Africa",52, 0.503 , 7.1 , 35 ,45
+Test289,Won,"LearnSys,Consumer goods,UK",82, 1.774 , 8.5 , 63 ,70
+Test290,Won,"GTMSys,Banks,Africa",52, 0.752 , 5.3 , 29 ,58
+Test291,Lost,"GTMSys,Banks,Africa",52, 1.650 , 8.1 , 33 ,57
+Test292,Won,"LearnSys,Banks,Africa",45, 0.950 , 7.3 , 51 ,67
+Test293,Lost,"Procsys,Insurance,UK",75, 1.655 , 10.8 , 60 ,63
+Test294,Lost,"Finsys,Finance,UK",77, 0.741 , 6.7 , 44 ,62
+Test295,Lost,"GTMSys,Banks,Africa",52, 1.761 , 9.0 , 16 ,51
+Test296,Lost,"LearnSys,Clinical research,UK",78, 0.291 , 10.1 , 68 ,46
+Test297,Lost,"Finsys,Finance,UK",77, 1.018 , 9.7 , 38 ,62
+Test298,Lost,"Finsys,Finance,UK",77, 0.970 , 6.1 , 38 ,39
+Test299,Won,"GTMSys,Others,Americas",38, 0.626 , 11.2 , 38 ,45
+Test300,Lost,"Finsys,Capital Markets,Other Europe",57, 1.371 , 5.9 , 35 ,62
+Test301,Lost,"GTMSys,Banks,Africa",52, 1.644 , 10.8 , 37 ,69
+Test302,Lost,"GTMSys,Others,Other Europe",69, 1.353 , 9.5 , 45 ,63
+Test303,Won,"Finsys,Finance,UK",77, 0.653 , 10.4 , 34 ,61
+Test304,Lost,"GTMSys,Defense,UK",83, 1.184 , 11.2 , 69 ,80
+Test305,Won,"GTMSys,Insurance,UK",58, (0.004), 6.2 , 38 ,49
+Test306,Won,"Finsys,Finance,UK",77, 1.262 , 12.3 , 15 ,58
+Test307,Lost,"Finsys,Finance,UK",77, 1.098 , 11.5 , 40 ,59
+Test308,Won,"GTMSys,Banks,Africa",52, 0.497 , 9.7 , 34 ,64
+Test309,Lost,"GTMSys,Defense,UK",83, 1.630 , 4.8 , 21 ,68
+Test310,Lost,"GTMSys,Banks,Africa",52, 1.043 , 9.5 , 55 ,54
+Test311,Won,"GTMSys,Banks,Africa",52, 0.893 , 8.1 , 43 ,80
+Test312,Won,"GTMSys,Banks,Africa",52, 0.738 , 11.0 , 43 ,56
+Test313,Won,"GTMSys,Others,Africa",39, 1.076 , 9.9 , 35 ,48
+Test314,Won,"GTMSys,Banks,Africa",52, 0.129 , 8.1 , 43 ,62
+Test315,Lost,"Finsys,Finance,UK",77, 0.857 , 9.4 , 35 ,48
+Test316,Won,"GTMSys,Banks,Africa",52, 0.941 , 12.3 , 35 ,62
+Test317,Lost,"Finsys,Finance,UK",77, 1.339 , 9.5 , 39 ,45
+Test318,Won,"GTMSys,Agriculture,Other Europe",26, 1.030 , 7.8 , 35 ,62
+Test319,Lost,"GTMSys,Banks,Africa",52, 1.940 , 8.9 , 53 ,80
+Test320,Won,"GTMSys,Banks,Africa",52, 0.115 , 9.1 , 52 ,69
+Test321,Lost,"GTMSys,Banks,Africa",52, 2.306 , 9.2 , 43 ,55
+Test322,Won,"GTMSys,Banks,Africa",52, 0.595 , 12.2 , 47 ,51
+Test323,Lost,"GTMSys,Banks,Africa",52, 1.258 , 8.2 , 42 ,51
+Test324,Won,"GTMSys,Insurance,UK",58, 0.855 , 5.7 , 41 ,67
+Test325,Lost,"GTMSys,Banks,Africa",52, 1.320 , 7.2 , 53 ,60
+Test326,Won,"LearnSys,Clinical research,UK",78, 0.349 , 10.8 , 43 ,60
+Test327,Lost,"GTMSys,Banks,Africa",52, 1.368 , 10.0 , 31 ,51
+Test328,Lost,"Finsys,Finance,UK",77, 1.178 , 7.6 , 58 ,100
+Test329,Lost,"Lifesys,Consumer goods,UK",46, 0.950 , 5.1 , 58 ,45
+Test330,Won,"GTMSys,Banks,Africa",52, 0.541 , 10.7 , 50 ,47
+Test331,Won,"GTMSys,Banks,Africa",52, 1.329 , 6.7 , 23 ,63
+Test332,Won,"GTMSys,Banks,Africa",52, 0.989 , 9.4 , 43 ,80
+Test333,Lost,"GTMSys,Banks,Africa",52, 1.653 , 8.1 , 48 ,66
+Test334,Won,"Lifesys,Capital Markets,Other Europe",47, 1.455 , 6.1 , 47 ,43
+Test335,Won,"Finsys,Insurance,UK",31, 0.862 , 7.9 , 44 ,66
+Test336,Won,"Lifesys,Others,Other Europe",64, 0.855 , 7.5 , 41 ,66
+Test337,Lost,"Procsys,Insurance,UK",75, 0.756 , 4.5 , 46 ,61
+Test338,Lost,"ContactSys,Banks,UK",59, 1.797 , 8.3 , 42 ,62
+Test339,Lost,"Finsys,Finance,UK",77, 0.445 , 12.0 , 55 ,80
+Test340,Won,"GTMSys,Finance,UK",55, 0.707 , 8.9 , 38 ,65
+Test341,Won,"GTMSys,Defense,Other Europe",30, 1.944 , 7.4 , 45 ,100
+Test342,Lost,"Finsys,Consumer goods,UK",54, 1.040 , 6.3 , 46 ,63
+Test343,Won,"GTMSys,Security,Singapore",73, 0.281 , 4.8 , 38 ,48
+Test344,Won,"GTMSys,Finance,UK",55, (0.230), 8.2 , 39 ,46
+Test345,Won,"Finsys,Consumer goods,UK",54, 0.787 , 8.0 , 27 ,44
+Test346,Lost,"GTMSys,Finance,UK",55, 2.306 , 5.6 , 43 ,73
+Test347,Lost,"LearnSys,Consumer goods,UK",82, 0.934 , 6.7 , 62 ,49
+Test348,Won,"GTMSys,Telecom equipments,Spain",66, 0.775 , 10.1 , 44 ,65
+Test349,Won,"GTMSys,Other Govt.,Other Europe",72, 1.010 , 8.3 , 28 ,56
+Test350,Lost,"GTMSys,Finance,UK",55, 1.446 , 5.4 , 50 ,72
+Test351,Lost,"GTMSys,Others,UK",49, 1.444 , 10.8 , 43 ,63
+Test352,Won,"GTMSys,Finance,UK",55, 0.430 , 9.2 , 41 ,56
+Test353,Lost,"GTMSys,Finance,UK",55, 1.408 , 10.6 , 54 ,54
+Test354,Lost,"GTMSys,Finance,UK",55, 1.371 , 12.8 , 40 ,61
+Test355,Lost,"GTMSys,Finance,UK",55, 1.359 , 7.7 , 30 ,56
+Test356,Lost,"Procsys,Insurance,UK",75, 1.164 , 7.0 , 49 ,49
+Test357,Lost,"GTMSys,Finance,UK",55, 1.019 , 8.6 , 47 ,62
+Test358,Lost,"Procsys,Insurance,UK",75, 1.437 , 9.0 , 59 ,56
+Test359,Lost,"Procsys,Security,UK",76, 3.008 , 8.3 , 29 ,61
+Test360,Won,"GTMSys,Finance,UK",55, 0.920 , 5.8 , 47 ,53
+Test361,Lost,"GTMSys,Finance,UK",55, 1.031 , 7.1 , 67 ,52
+Test362,Won,"Procsys,Security,UK",76, 0.604 , 10.1 , 39 ,80
+Test363,Lost,"Procsys,Security,UK",76, 1.716 , 8.1 , 43 ,59
+Test364,Lost,"GTMSys,Finance,UK",55, 2.306 , 8.4 , 30 ,59
+Test365,Lost,"Procsys,Security,Americas",68, 1.306 , 12.5 , 47 ,67
+Test366,Lost,"Procsys,Security,Americas",68, 1.922 , 9.3 , 57 ,71
+Test367,Lost,"Procsys,Security,UK",76, 0.376 , 11.5 , 42 ,50
+Test368,Lost,"GTMSys,Defense,UK",83, 1.481 , 6.9 , 45 ,61
+Test369,Lost,"GTMSys,Defense,UK",83, 0.456 , 9.5 , 40 ,67
+Test370,Won,"Procsys,Security,Americas",68, 0.556 , 6.5 , 52 ,74
+Test371,Lost,"Procsys,Security,UK",76, 1.066 , 8.5 , 46 ,58
+Test372,Lost,"Procsys,Security,UK",76, 1.181 , 7.6 , 34 ,80
+Test373,Lost,"Procsys,Security,Americas",68, 1.570 , 11.9 , 41 ,46
+Test374,Won,"Procsys,Security,Americas",68, 0.329 , 10.8 , 50 ,59
+Test375,Lost,"Procsys,Security,Americas",68, 1.507 , 10.9 , 35 ,80
+Test376,Lost,"Procsys,Security,UK",76, 1.562 , 11.1 , 41 ,48
+Test377,Won,"GTMSys,Defense,UK",83, 1.680 , 11.8 , 41 ,65
+Test378,Lost,"GTMSys,Defense,UK",83, 0.706 , 12.3 , 37 ,61
+Test379,Lost,"Procsys,Security,Americas",68, 0.879 , 11.2 , 52 ,53
+Test380,Won,"Procsys,Security,UK",76, 0.165 , 6.6 , 48 ,55
+Test381,Lost,"LearnSys,Insurance,UK",74, 1.213 , 11.3 , 47 ,80
+Test382,Lost,"GTMSys,Others,Other Europe",69, 0.958 , 8.8 , 61 ,60
+Test383,Won,"Finsys,Finance,UK",77, 0.542 , 8.6 , 19 ,49
+Test384,Lost,"Logissys,Clinical research,UK",79, 1.059 , 10.6 , 51 ,58
+Test385,Won,"GTMSys,Finance,UK",55, 0.691 , 9.9 , 38 ,68
+Test386,Won,"GTMSys,Finance,UK",55, 0.915 , 8.2 , 45 ,65
+Test387,Lost,"GTMSys,Defense,UK",83, 0.764 , 9.2 , 37 ,62
+Test388,Lost,"GTMSys,Others,Other Europe",69, 0.818 , 7.5 , 55 ,45
+Test389,Lost,"Procsys,Consumer goods,UK",53, 0.897 , 7.1 , 48 ,53
+Test390,Won,"GTMSys,Insurance,UK",58, 0.228 , 8.7 , 28 ,69
+Test391,Lost,"Procsys,Security,UK",76, 0.775 , 11.3 , 59 ,54
+Test392,Lost,"Procsys,Security,UK",76, 1.352 , 8.9 , 44 ,61
+Test393,Won,"Procsys,Insurance,UK",75, 0.514 , 7.9 , 42 ,65
+Test394,Lost,"GTMSys,Finance,UK",55, 1.906 , 6.2 , 42 ,63
+Test395,Lost,"Finsys,Finance,UK",77, 0.940 , 10.2 , 42 ,51
+Test396,Lost,"LearnSys,Insurance,UK",74, 1.862 , 11.1 , 47 ,49
+Test397,Lost,"Finsys,Capital Markets,Other Europe",57, 1.303 , 6.7 , 49 ,63
+Test398,Won,"GTMSys,Clinical research,UK",23, 0.836 , 11.3 , 47 ,56
+Test399,Lost,"GTMSys,Telecom equipments,Spain",66, 0.832 , 6.9 , 55 ,43
+Test400,Won,"GTMSys,Finance,UK",55, 1.380 , 8.4 , 28 ,65
+Test401,Lost,"GTMSys,Telecom equipments,Spain",66, 1.336 , 10.1 , 50 ,55
+Test402,Lost,"GTMSys,Telecom equipments,Spain",66, 1.795 , 10.3 , 45 ,56
+Test403,Lost,"GTMSys,Telecom equipments,Spain",66, 1.464 , 9.6 , 64 ,69
+Test404,Lost,"GTMSys,Telecom equipments,Spain",66, 1.388 , 6.7 , 51 ,53
+Test405,Won,"GTMSys,Telecom equipments,Spain",66, 0.888 , 3.9 , 34 ,45
+Test406,Lost,"GTMSys,Telecom equipments,Spain",66, 1.030 , 7.8 , 53 ,57
+Test407,Lost,"GTMSys,Finance,UK",55, 1.663 , 13.4 , 34 ,72
+Test408,Won,"GTMSys,Telecom equipments,Spain",66, 0.519 , 12.7 , 45 ,66
+Test409,Lost,"GTMSys,Telecom equipments,Spain",66, 1.257 , 6.2 , 74 ,57
+Test410,Won,"GTMSys,Finance,UK",55, 0.103 , 12.0 , 53 ,80
+Test411,Lost,"GTMSys,Finance,UK",55, 1.955 , 9.7 , 57 ,71
+Test412,Won,"Logissys,Clinical research,UK",79, 0.150 , 7.2 , 41 ,59
+Test413,Won,"GTMSys,Finance,UK",55, (0.453), 9.0 , 54 ,80
+Test414,Lost,"GTMSys,Defense,UK",83, 1.346 , 10.8 , 50 ,51
+Test415,Won,"GTMSys,Finance,UK",55, 1.010 , 8.3 , 43 ,62
+Test416,Lost,"LearnSys,Consumer goods,UK",82, 0.897 , 4.5 , 45 ,57
+Test417,Won,"GTMSys,Finance,UK",55, 0.203 , 12.3 , 50 ,69
+Test418,Won,"Finsys,Insurance,UK",31, 1.277 , 9.1 , 42 ,67
+Test419,Won,"LearnSys,Capital Markets,UK",40, 0.443 , 9.8 , 45 ,80
+Test420,Won,"LearnSys,Defense,UK",51, 0.873 , 9.8 , 35 ,56
+Test421,Lost,"Finsys,Finance,UK",77, 1.202 , 10.9 , 65 ,64
+Test422,Lost,"Finsys,Consumer goods,UK",54, 0.959 , 5.9 , 48 ,53
+Test423,Lost,"Finsys,Finance,UK",77, 1.030 , 7.1 , 42 ,70
+Test424,Won,"Finsys,Insurance,UK",31, 0.185 , 6.9 , 33 ,72
+Test425,Lost,"GTMSys,Finance,UK",55, 1.573 , 8.2 , 61 ,74
+Test426,Won,"Finsys,Insurance,UK",31, 0.071 , 4.0 , 40 ,65
+Test427,Lost,"GTMSys,Finance,UK",55, 1.255 , 10.4 , 51 ,55
+Test428,Lost,"GTMSys,Finance,UK",55, 1.955 , 7.2 , 47 ,80
+Test429,Lost,"Finsys,Consumer goods,UK",54, 1.869 , 4.7 , 43 ,71
+Test430,Lost,"Finsys,Consumer goods,UK",54, 0.809 , 7.5 , 61 ,56
+Test431,Lost,"GTMSys,Finance,UK",55, 1.167 , 10.3 , 40 ,62
+Test432,Lost,"LearnSys,Clinical research,UK",78, 1.067 , 4.7 , 44 ,49
+Test433,Lost,"GTMSys,Finance,UK",55, 1.955 , 9.2 , 68 ,52
+Test434,Lost,"GTMSys,Security,Singapore",73, 1.835 , 11.5 , 21 ,100
+Test435,Won,"GTMSys,Security,Singapore",73, 0.231 , 9.3 , 37 ,45
+Test436,Lost,"GTMSys,Security,Singapore",73, 1.068 , 6.8 , 37 ,65
+Test437,Lost,"GTMSys,Finance,UK",55, 1.702 , 10.2 , 61 ,70
+Test438,Won,"GTMSys,Defense,Other Europe",30, 1.437 , 9.3 , 53 ,80
+Test439,Lost,"Procsys,Insurance,UK",75, 1.301 , 9.6 , 46 ,61
+Test440,Won,"Procsys,Insurance,UK",75, 0.121 , 10.6 , 45 ,67
+Test441,Lost,"Procsys,Insurance,UK",75, 0.868 , 9.7 , 50 ,80
+Test442,Won,"GTMSys,Finance,UK",55, 0.953 , 11.0 , 44 ,80
+Test443,Won,"GTMSys,Defense,Americas",50, 0.175 , 9.5 , 45 ,46
+Test444,Lost,"GTMSys,Finance,UK",55, 1.955 , 9.3 , 47 ,70
+Test445,Won,"GTMSys,Finance,UK",55, 0.102 , 10.5 , 38 ,37
+Test446,Won,"GTMSys,Telecom equipments,Spain",66, 0.441 , 7.2 , 41 ,55
+Test447,Lost,"Logissys,Clinical research,UK",79, 0.971 , 9.6 , 47 ,65
+Test448,Lost,"GTMSys,Finance,UK",55, 1.406 , 12.0 , 72 ,80
+Test449,Lost,"GTMSys,Finance,UK",55, 1.215 , 9.7 , 54 ,63
+Test450,Won,"GTMSys,Finance,UK",55, 0.562 , 6.9 , 37 ,38
+Test451,Lost,"GTMSys,Finance,UK",55, 1.155 , 11.5 , 48 ,72
+Test452,Lost,"GTMSys,Defense,UK",83, 0.800 , 8.9 , 35 ,45
+Test453,Won,"GTMSys,Defense,UK",83, 1.697 , 8.0 , 47 ,58
+Test454,Won,"GTMSys,Finance,UK",55, 0.994 , 8.6 , 41 ,65
+Test455,Lost,"Finsys,Capital Markets,Other Europe",57, 1.394 , 12.0 , 39 ,50
+Test456,Lost,"GTMSys,Health,UK",67, 1.181 , 7.7 , 38 ,55
+Test457,Won,"GTMSys,Banks,Americas",43, 1.213 , 9.6 , 47 ,51
+Test458,Lost,"GTMSys,Finance,UK",55, 0.595 , 8.5 , 59 ,50
+Test459,Won,"GTMSys,Finance,UK",55, 0.595 , 5.1 , 39 ,80
+Test460,Won,"Logissys,Clinical research,UK",79, 0.863 , 7.7 , 19 ,58
+Test461,Lost,"LearnSys,Consumer goods,UK",82, 0.951 , 9.0 , 35 ,48
+Test462,Lost,"Logissys,Clinical research,UK",79, 0.847 , 10.9 , 40 ,41
+Test463,Lost,"GTMSys,Defense,UK",83, 0.909 , 7.1 , 52 ,100
+Test464,Lost,"GTMSys,Finance,UK",55, 2.112 , 5.3 , 54 ,57
+Test465,Lost,"GTMSys,Finance,UK",55, 1.317 , 9.9 , 35 ,61
+Test466,Lost,"Lifesys,Consumer goods,UK",46, 1.430 , 6.8 , 40 ,52
+Test467,Lost,"Lifesys,Capital Markets,UK",27, 1.576 , 9.3 , 58 ,55
+Test468,Won,"GTMSys,Other Govt.,Other Europe",72, 0.535 , 11.4 , 40 ,58
+Test469,Lost,"GTMSys,Banks,Singapore",65, 1.361 , 6.2 , 50 ,80
+Test470,Lost,"GTMSys,Finance,UK",55, 0.602 , 13.6 , 57 ,60
+Test471,Won,"GTMSys,Finance,UK",55, 0.644 , 7.9 , 35 ,52
+Test472,Lost,"Procsys,Security,UK",76, 1.471 , 10.6 , 28 ,38
+Test473,Lost,"Logissys,Clinical research,UK",79, 0.926 , 6.8 , 45 ,67
+Test474,Won,"Finsys,Consumer goods,UK",54, 0.700 , 10.2 , 50 ,68
+Test475,Lost,"Finsys,Infrastructure,UK",62, 1.258 , 12.8 , 61 ,46
+Test476,Won,"Procsys,Security,UK",76, 0.042 , 11.8 , 35 ,44
+Test477,Lost,"GTMSys,Finance,UK",55, 1.010 , 10.2 , 50 ,74
+Test478,Lost,"Lifesys,Capital Markets,Other Europe",47, 1.653 , 7.8 , 69 ,48
+Test479,Won,"GTMSys,Defense,UK",83, 0.221 , 10.0 , 38 ,42
+Test480,Lost,"GTMSys,Finance,UK",55, 0.969 , 8.3 , 46 ,43
+Test481,Lost,"GTMSys,Finance,UK",55, 1.854 , 10.7 , 49 ,57
+Test482,Lost,"GTMSys,Finance,UK",55, 1.955 , 8.5 , 52 ,54
+Test483,Lost,"GTMSys,Finance,UK",55, 1.217 , 10.9 , 49 ,62
+Test484,Won,"Finsys,Infrastructure,UK",62, 0.698 , 9.3 , 32 ,59
+Test485,Won,"GTMSys,Finance,UK",55, 1.212 , 6.9 , 27 ,100
+Test486,Lost,"GTMSys,Finance,UK",55, 1.064 , 8.6 , 45 ,45
+Test487,Won,"Finsys,Infrastructure,UK",62, 1.348 , 9.2 , 51 ,56
+Test488,Won,"Finsys,Infrastructure,UK",62, 0.691 , 10.8 , 42 ,43
+Test489,Won,"Logissys,Govt.,UK",36, (0.561), 7.9 , 42 ,45
+Test490,Lost,"GTMSys,Banks,Americas",43, 1.484 , 13.0 , 47 ,72
+Test491,Lost,"Logissys,Govt.,UK",36, 1.624 , 8.3 , 46 ,53
+Test492,Won,"Logissys,Govt.,UK",36, 1.292 , 9.7 , 33 ,62
+Test493,Won,"Logissys,Govt.,UK",36, 0.832 , 9.6 , 38 ,57
+Test494,Won,"Finsys,Others,Other Europe",18, 0.743 , 7.1 , 45 ,63
+Test495,Won,"Logissys,Govt.,UK",36, 0.871 , 7.8 , 29 ,62
+Test496,Won,"Finsys,Insurance,UK",31, 0.371 , 10.7 , 40 ,69
+Test497,Lost,"Lifesys,Others,Other Europe",64, 1.148 , 11.0 , 55 ,56
+Test498,Lost,"Finsys,Capital Markets,Other Europe",57, 1.759 , 10.9 , 44 ,71
+Test499,Won,"Logissys,Govt.,UK",36, 1.161 , 9.3 , 41 ,59
+Test500,Won,"Finsys,Capital Markets,Other Europe",57, 0.380 , 12.2 , 52 ,80
+Test501,Won,"Logissys,Govt.,UK",36, 0.304 , 12.7 , 43 ,60
+Test502,Lost,"LearnSys,Consumer goods,UK",82, 1.279 , 8.4 , 35 ,45
+Test503,Lost,"Finsys,Finance,UK",77, 0.831 , 9.0 , 49 ,52
+Test504,Lost,"GTMSys,Defense,UK",83, 0.575 , 8.2 , 47 ,74
+Test505,Won,"Logissys,Govt.,UK",36, 0.595 , 11.0 , 23 ,50
+Test506,Lost,"Procsys,Insurance,UK",75, 0.843 , 7.6 , 40 ,49
+Test507,Won,"Logissys,Govt.,UK",36, 1.225 , 11.2 , 44 ,68
+Test508,Lost,"Lifesys,Consumer goods,UK",46, 0.810 , 12.6 , 52 ,42
+Test509,Won,"Lifesys,Consumer goods,UK",46, 0.730 , 10.1 , 39 ,56
+Test510,Won,"Lifesys,Consumer goods,UK",46, 0.347 , 8.3 , 37 ,72
+Test511,Won,"Lifesys,Consumer goods,UK",46, 0.968 , 9.3 , 46 ,70
+Test512,Won,"Lifesys,Consumer goods,UK",46, 0.845 , 9.4 , 11 ,65
+Test513,Won,"Logissys,Govt.,UK",36, 0.334 , 10.8 , 41 ,64
+Test514,Lost,"Procsys,Insurance,UK",75, 0.424 , 10.1 , 49 ,71
+Test515,Won,"GTMSys,Clinical research,UK",23, 0.725 , 8.7 , 48 ,50
+Test516,Won,"Logissys,Govt.,UK",36, 0.727 , 7.7 , 49 ,48
+Test517,Won,"Logissys,Govt.,UK",36, 0.650 , 8.2 , 30 ,66
+Test518,Lost,"GTMSys,Banks,Singapore",65, 1.024 , 10.4 , 48 ,61
+Test519,Lost,"Lifesys,Consumer goods,UK",46, 0.982 , 7.5 , 51 ,60
+Test520,Lost,"LearnSys,Banks,Africa",45, 0.839 , 6.3 , 67 ,39
+Test521,Won,"Logissys,Govt.,UK",36, 0.467 , 5.4 , 46 ,62
+Test522,Won,"Procsys,Capital Markets,UK",71, 0.110 , 8.4 , 43 ,80
+Test523,Won,"Logissys,Govt.,UK",36, 1.010 , 9.3 , 29 ,100
+Test524,Lost,"Logissys,Govt.,UK",36, 2.112 , 8.7 , 62 ,39
+Test525,Lost,"GTMSys,Defense,UK",83, 0.854 , 9.8 , 29 ,67
+Test526,Lost,"GTMSys,Capital Markets,UK",48, 1.821 , 8.7 , 47 ,100
+Test527,Won,"Logissys,Govt.,UK",36, (0.238), 10.5 , 52 ,80
+Test528,Won,"GTMSys,Health,UK",67, 0.274 , 7.8 , 48 ,46
+Test529,Won,"GTMSys,Capital Markets,UK",48, 0.674 , 7.9 , 50 ,50
+Test530,Won,"GTMSys,Capital Markets,UK",48, 1.162 , 7.2 , 47 ,100
+Test531,Lost,"Logissys,Govt.,UK",36, 1.078 , 7.6 , 56 ,48
+Test532,Won,"Procsys,Security,UK",76, 0.296 , 10.7 , 36 ,66
+Test533,Won,"Procsys,Security,Americas",68, 0.783 , 9.6 , 39 ,65
+Test534,Lost,"Procsys,Energy,UK",34, 2.112 , 9.7 , 45 ,41
+Test535,Lost,"Procsys,Energy,UK",34, 2.112 , 6.0 , 44 ,62
+Test536,Lost,"Procsys,Security,UK",76, 0.923 , 11.2 , 64 ,64
+Test537,Lost,"Procsys,Security,Americas",68, 1.810 , 7.0 , 41 ,50
+Test538,Won,"Logissys,Govt.,UK",36, 0.574 , 8.5 , 44 ,58
+Test539,Lost,"Logissys,Govt.,UK",36, 1.697 , 10.6 , 52 ,73
+Test540,Lost,"Logissys,Clinical research,UK",79, 0.962 , 6.6 , 48 ,41
+Test541,Lost,"LearnSys,Clinical research,UK",78, 0.974 , 8.3 , 41 ,80
+Test542,Won,"Logissys,Govt.,UK",36, 1.061 , 7.3 , 49 ,80
+Test543,Lost,"GTMSys,Defense,UK",83, 1.111 , 6.0 , 42 ,63
+Test544,Lost,"Finsys,Finance,UK",77, 1.312 , 9.8 , 35 ,80
+Test545,Won,"LearnSys,Banks,Africa",45, 1.565 , 6.1 , 36 ,50
+Test546,Lost,"GTMSys,Defense,UK",83, 0.277 , 9.6 , 46 ,54
+Test547,Lost,"GTMSys,Defense,UK",83, 1.032 , 9.0 , 42 ,58
+Test548,Lost,"Finsys,Finance,UK",77, 1.614 , 8.5 , 39 ,49
+Test549,Won,"Procsys,White goods,UK",15, 0.731 , 7.6 , 52 ,56
+Test550,Won,"GTMSys,Capital Markets,UK",48, 0.245 , 9.1 , 38 ,56
+Test551,Lost,"LearnSys,Consumer goods,UK",82, 0.892 , 8.6 , 45 ,71
+Test552,Lost,"LearnSys,Consumer goods,UK",82, 1.252 , 8.0 , 56 ,52
+Test553,Lost,"LearnSys,Consumer goods,UK",82, 1.465 , 9.3 , 36 ,60
+Test554,Lost,"LearnSys,Consumer goods,UK",82, 1.174 , 7.7 , 48 ,49
+Test555,Won,"Logissys,Govt.,UK",36, 0.825 , 8.7 , 55 ,61
+Test556,Won,"Logissys,Govt.,UK",36, 1.705 , 10.0 , 35 ,64
+Test557,Lost,"LearnSys,Insurance,UK",74, 0.849 , 11.4 , 63 ,57
+Test558,Lost,"LearnSys,Consumer goods,UK",82, 0.993 , 7.2 , 29 ,48
+Test559,Lost,"Finsys,Finance,UK",77, 0.887 , 12.0 , 43 ,80
+Test560,Lost,"Procsys,Clinical research,UK",70, 1.750 , 7.8 , 56 ,45
+Test561,Won,"Logissys,Govt.,UK",36, 0.535 , 9.3 , 41 ,63
+Test562,Won,"Logissys,Govt.,UK",36, 0.140 , 9.3 , 63 ,67
+Test563,Won,"Lifesys,Others,Other Europe",64, 0.099 , 7.6 , 43 ,53
+Test564,Won,"Logissys,Govt.,UK",36, 0.770 , 10.2 , 30 ,52
+Test565,Lost,"Procsys,Security,UK",76, 1.240 , 8.3 , 39 ,50
+Test566,Lost,"LearnSys,Energy,UK",42, 2.112 , 6.5 , 47 ,52
+Test567,Lost,"Procsys,Security,UK",76, 0.917 , 8.8 , 43 ,49
+Test568,Lost,"Procsys,Insurance,UK",75, 1.426 , 6.3 , 50 ,64
+Test569,Won,"Finsys,Finance,UK",77, 0.835 , 9.2 , 23 ,51
+Test570,Lost,"Finsys,Finance,UK",77, 0.236 , 14.2 , 58 ,50
+Test571,Lost,"GTMSys,Security,Singapore",73, 0.540 , 5.8 , 52 ,45
+Test572,Lost,"GTMSys,Security,Singapore",73, 1.342 , 10.3 , 43 ,55
+Test573,Won,"GTMSys,Security,Singapore",73, 0.075 , 6.2 , 48 ,58
+Test574,Lost,"Procsys,Capital Markets,UK",71, 1.338 , 7.6 , 32 ,61
+Test575,Won,"Logissys,Govt.,UK",36, 0.564 , 9.6 , 50 ,58
+Test576,Lost,"Logissys,Govt.,UK",36, 2.306 , 9.0 , 62 ,52
+Test577,Lost,"GTMSys,Security,Singapore",73, 1.075 , 8.5 , 37 ,54
+Test578,Won,"Logissys,Govt.,UK",36, 0.646 , 5.3 , 22 ,57
+Test579,Won,"Logissys,Govt.,UK",36, 1.549 , 7.0 , 33 ,51
+Test580,Won,"Logissys,Govt.,UK",36, 0.905 , 7.8 , 38 ,52
+Test581,Won,"Lifesys,Consumer goods,UK",46, 0.075 , 9.4 , 28 ,70
+Test582,Won,"GTMSys,Banks,Americas",43, 1.674 , 10.8 , 41 ,56
+Test583,Lost,"Logissys,Govt.,UK",36, 1.792 , 9.7 , 40 ,60
+Test584,Lost,"Logissys,Govt.,UK",36, 1.205 , 10.7 , 66 ,56
+Test585,Won,"Logissys,Govt.,UK",36, 0.921 , 13.5 , 32 ,46
+Test586,Won,"Finsys,Infrastructure,UK",62, 0.789 , 8.1 , 31 ,59
+Test587,Won,"Logissys,Govt.,UK",36, 0.287 , 9.5 , 34 ,55
+Test588,Lost,"Finsys,Consumer goods,UK",54, 1.263 , 8.0 , 32 ,36
+Test589,Won,"GTMSys,Defense,Japan",63, 0.526 , 8.8 , 41 ,80
+Test590,Lost,"GTMSys,Defense,Japan",63, 1.955 , 8.5 , 50 ,62
+Test591,Lost,"GTMSys,Defense,Japan",63, 1.115 , 8.0 , 41 ,80
+Test592,Lost,"GTMSys,Defense,Japan",63, 1.495 , 8.6 , 39 ,72
+Test593,Lost,"GTMSys,Defense,Japan",63, 0.554 , 10.0 , 52 ,67
+Test594,Won,"GTMSys,Defense,Japan",63, 0.275 , 7.3 , 64 ,71
+Test595,Lost,"Finsys,Finance,UK",77, 1.881 , 8.8 , 50 ,65
+Test596,Lost,"GTMSys,Defense,Japan",63, 1.447 , 10.7 , 59 ,59
+Test597,Won,"GTMSys,Defense,Japan",63, 0.541 , 8.9 , 40 ,50
+Test598,Lost,"LearnSys,Consumer goods,UK",82, 0.023 , 10.9 , 55 ,48
+Test599,Won,"GTMSys,Defense,Japan",63, 0.874 , 12.1 , 29 ,67
+Test600,Won,"Procsys,Security,India",44, 0.674 , 7.1 , 46 ,38
+Test601,Won,"Procsys,Security,India",44, 0.001 , 10.5 , 44 ,44
+Test602,Lost,"GTMSys,Defense,Japan",63, 1.272 , 6.2 , 52 ,59
+Test603,Lost,"Procsys,Energy,UK",34, 2.112 , 12.9 , 50 ,74
+Test604,Lost,"Procsys,Insurance,UK",75, 1.514 , 5.5 , 50 ,66
+Test605,Lost,"GTMSys,Defense,Japan",63, 2.112 , 10.6 , 60 ,65
+Test606,Lost,"GTMSys,Other Govt.,Other Europe",72, 0.363 , 9.1 , 66 ,58
+Test607,Won,"GTMSys,Defense,Japan",63, 1.164 , 10.1 , 31 ,59
+Test608,Lost,"GTMSys,Defense,Japan",63, 1.192 , 6.6 , 58 ,63
+Test609,Won,"GTMSys,Defense,Japan",63, 0.554 , 8.8 , 37 ,51
+Test610,Lost,"GTMSys,Defense,Japan",63, 1.847 , 8.4 , 45 ,51
+Test611,Lost,"GTMSys,Defense,Japan",63, 0.763 , 8.5 , 44 ,54
+Test612,Won,"GTMSys,Defense,Japan",63, 0.961 , 11.1 , 45 ,74
+Test613,Lost,"GTMSys,Others,Other Europe",69, 0.296 , 7.8 , 62 ,41
+Test614,Lost,"Procsys,Insurance,UK",75, 1.513 , 7.7 , 54 ,57
+Test615,Lost,"Procsys,Energy,UK",34, 2.112 , 6.9 , 43 ,69
+Test616,Won,"LearnSys,Insurance,UK",74, 0.692 , 8.4 , 38 ,68
+Test617,Lost,"GTMSys,Telecom equipments,Spain",66, 0.997 , 11.0 , 42 ,68
+Test618,Lost,"GTMSys,Security,Singapore",73, 1.362 , 8.1 , 48 ,54
+Test619,Won,"Procsys,Consumer goods,UK",53, 0.919 , 7.3 , 45 ,56
+Test620,Lost,"GTMSys,Defense,Japan",63, 1.375 , 7.9 , 42 ,64
+Test621,Won,"Procsys,Consumer goods,UK",53, 0.108 , 7.6 , 34 ,42
+Test622,Lost,"LearnSys,Clinical research,UK",78, 1.309 , 12.3 , 40 ,47
+Test623,Won,"GTMSys,Defense,Japan",63, 0.781 , 7.4 , 34 ,63
+Test624,Won,"GTMSys,Defense,Japan",63, 1.055 , 6.1 , 64 ,100
+Test625,Won,"GTMSys,Defense,UK",83, 0.868 , 5.4 , 31 ,51
+Test626,Lost,"LearnSys,Consumer goods,UK",82, 1.672 , 6.3 , 56 ,57
+Test627,Won,"LearnSys,Energy,UK",42, 2.112 , 8.9 , 47 ,80
+Test628,Won,"LearnSys,Insurance,UK",74, 0.556 , 7.7 , 64 ,64
+Test629,Lost,"LearnSys,Insurance,UK",74, 0.668 , 7.9 , 47 ,67
+Test630,Lost,"LearnSys,Insurance,UK",74, 1.415 , 7.8 , 44 ,65
+Test631,Lost,"Logissys,Clinical research,UK",79, 0.373 , 7.5 , 59 ,63
+Test632,Lost,"Finsys,Capital Markets,Other Europe",57, 1.955 , 8.6 , 40 ,48
+Test633,Won,"Finsys,Capital Markets,Other Europe",57, 1.147 , 13.7 , 30 ,62
+Test634,Lost,"Lifesys,Consumer goods,UK",46, 1.698 , 9.9 , 47 ,53
+Test635,Won,"GTMSys,Clinical research,UK",23, 0.288 , 8.8 , 50 ,71
+Test636,Won,"Lifesys,Others,Other Europe",64, 1.053 , 9.4 , 30 ,58
+Test637,Won,"LearnSys,Insurance,UK",74, 0.513 , 9.2 , 47 ,66
+Test638,Won,"Finsys,Capital Markets,Other Europe",57, 0.977 , 9.4 , 42 ,65
+Test639,Lost,"Procsys,Insurance,UK",75, 0.704 , 11.0 , 39 ,66
+Test640,Lost,"GTMSys,Health,UK",67, 0.717 , 8.3 , 50 ,61
+Test641,Lost,"GTMSys,Health,UK",67, 0.546 , 8.8 , 55 ,47
+Test642,Won,"GTMSys,Health,UK",67, 0.763 , 5.5 , 35 ,56
+Test643,Won,"GTMSys,Defense,Americas",50, 0.071 , 9.0 , 37 ,60
+Test644,Won,"Finsys,Capital Markets,Other Europe",57, 0.664 , 8.6 , 50 ,65
+Test645,Lost,"Procsys,Capital Markets,UK",71, 0.980 , 7.5 , 48 ,64
+Test646,Lost,"Finsys,Capital Markets,Other Europe",57, 1.725 , 11.6 , 50 ,80
+Test647,Lost,"Lifesys,Others,Other Europe",64, 1.244 , 9.7 , 35 ,51
+Test648,Lost,"Finsys,Finance,UK",77, 0.982 , 8.8 , 42 ,80
+Test649,Lost,"Finsys,Finance,UK",77, 1.175 , 8.6 , 53 ,46
+Test650,Won,"LearnSys,Consumer goods,UK",82, 0.459 , 12.9 , 47 ,100
+Test651,Lost,"LearnSys,Consumer goods,UK",82, 1.192 , 7.6 , 37 ,61
+Test652,Lost,"LearnSys,Consumer goods,UK",82, 1.212 , 11.1 , 58 ,55
+Test653,Won,"Finsys,Capital Markets,Other Europe",57, 1.010 , 8.2 , 44 ,62
+Test654,Lost,"Finsys,Finance,UK",77, 0.977 , 9.7 , 43 ,55
+Test655,Lost,"LearnSys,Consumer goods,UK",82, 1.364 , 6.8 , 38 ,58
+Test656,Won,"Finsys,Capital Markets,Other Europe",57, 1.053 , 9.0 , 10 ,54
+Test657,Lost,"Logissys,Clinical research,UK",79, 0.932 , 10.8 , 31 ,47
+Test658,Won,"Procsys,Insurance,UK",75, 0.232 , 11.9 , 45 ,56
+Test659,Won,"Procsys,Insurance,UK",75, 0.406 , 8.3 , 41 ,67
+Test660,Lost,"Procsys,Insurance,UK",75, 1.893 , 10.1 , 61 ,62
+Test661,Lost,"Finsys,Insurance,UK",31, 1.589 , 10.6 , 52 ,51
+Test662,Won,"Finsys,Infrastructure,UK",62, 1.304 , 8.9 , 24 ,40
+Test663,Won,"GTMSys,Agriculture,Other Europe",26, 1.186 , 9.9 , 44 ,71
+Test664,Lost,"Finsys,Capital Markets,Other Europe",57, 1.115 , 9.8 , 43 ,73
+Test665,Won,"Finsys,Consumer goods,UK",54, 0.467 , 11.6 , 41 ,57
+Test666,Lost,"GTMSys,Security,Singapore",73, 0.620 , 8.0 , 54 ,63
+Test667,Lost,"GTMSys,Security,Singapore",73, 0.671 , 8.8 , 52 ,64
+Test668,Won,"Finsys,Capital Markets,Other Europe",57, 0.244 , 13.4 , 56 ,45
+Test669,Lost,"Procsys,Insurance,UK",75, 0.624 , 8.8 , 47 ,73
+Test670,Won,"Procsys,Security,India",44, (0.039), 8.7 , 43 ,70
+Test671,Lost,"Finsys,Capital Markets,Other Europe",57, 1.393 , 10.5 , 38 ,57
+Test672,Lost,"Procsys,Insurance,UK",75, 1.041 , 5.7 , 51 ,61
+Test673,Lost,"Finsys,Capital Markets,Other Europe",57, 1.437 , 11.2 , 53 ,65
+Test674,Lost,"Finsys,Infrastructure,UK",62, 1.422 , 11.2 , 31 ,46
+Test675,Won,"Finsys,Capital Markets,Other Europe",57, 0.563 , 7.8 , 40 ,54
+Test676,Won,"GTMSys,Clinical research,UK",23, 0.574 , 12.8 , 43 ,37
+Test677,Lost,"Finsys,Finance,UK",77, 1.376 , 7.4 , 46 ,58
+Test678,Lost,"Finsys,Capital Markets,Other Europe",57, 1.186 , 9.2 , 40 ,52
+Test679,Lost,"GTMSys,Defense,UK",83, 1.071 , 6.4 , 48 ,57
+Test680,Lost,"LearnSys,Consumer goods,UK",82, 1.361 , 7.4 , 38 ,56
+Test681,Won,"GTMSys,Defense,Japan",63, 0.293 , 10.9 , 45 ,60
+Test682,Won,"GTMSys,Health,UK",67, 1.010 , 10.8 , 33 ,63
+Test683,Lost,"Finsys,Finance,UK",77, 1.620 , 5.7 , 52 ,60
+Test684,Won,"Procsys,Defense,Americas",22, 0.605 , 7.1 , 45 ,65
+Test685,Won,"Lifesys,Capital Markets,UK",27, 0.572 , 9.9 , 37 ,53
+Test686,Lost,"Finsys,Capital Markets,Other Europe",57, 1.131 , 4.8 , 65 ,63
+Test687,Won,"Finsys,Capital Markets,Other Europe",57, (0.338), 9.6 , 56 ,66
+Test688,Lost,"Procsys,Insurance,UK",75, 1.716 , 8.4 , 43 ,58
+Test689,Lost,"GTMSys,Telecom equipments,Spain",66, 0.403 , 10.9 , 63 ,49
+Test690,Won,"Finsys,Insurance,UK",31, 0.785 , 12.2 , 33 ,67
+Test691,Lost,"GTMSys,Defense,UK",83, 0.430 , 9.1 , 50 ,64
+Test692,Won,"GTMSys,Security,Singapore",73, 0.248 , 12.2 , 47 ,47
+Test693,Lost,"GTMSys,Insurance,UK",58, 1.199 , 10.1 , 48 ,69
+Test694,Won,"Finsys,Capital Markets,Other Europe",57, 0.522 , 9.3 , 43 ,80
+Test695,Lost,"Finsys,Capital Markets,Other Europe",57, 1.795 , 7.3 , 29 ,52
+Test696,Won,"Procsys,Consumer goods,UK",53, 0.856 , 8.0 , 50 ,54
+Test697,Lost,"Finsys,Finance,UK",77, 1.056 , 9.4 , 58 ,63
+Test698,Won,"LearnSys,Clinical research,UK",78, 1.274 , 7.0 , 20 ,80
+Test699,Won,"Finsys,Capital Markets,Other Europe",57, 0.715 , 10.2 , 31 ,35
+Test700,Won,"Finsys,Capital Markets,Other Europe",57, 0.725 , 7.0 , 28 ,69
+Test701,Lost,"GTMSys,Telecom equipments,Spain",66, 1.396 , 7.5 , 46 ,49
+Test702,Lost,"GTMSys,Telecom equipments,Spain",66, 1.896 , 9.9 , 46 ,80
+Test703,Lost,"Finsys,Capital Markets,Other Europe",57, 1.688 , 10.9 , 29 ,58
+Test704,Won,"Finsys,Capital Markets,Other Europe",57, 1.348 , 8.5 , 17 ,60
+Test705,Lost,"GTMSys,Defense,Americas",50, 1.296 , 7.5 , 42 ,61
+Test706,Won,"GTMSys,Defense,Other Europe",30, 1.256 , 11.1 , 53 ,71
+Test707,Lost,"GTMSys,Banks,UK",61, 1.640 , 8.5 , 54 ,66
+Test708,Lost,"Finsys,Capital Markets,UK",60, 0.669 , 8.8 , 53 ,53
+Test709,Lost,"Finsys,Capital Markets,Other Europe",57, 1.553 , 9.0 , 37 ,60
+Test710,Lost,"Finsys,Capital Markets,Other Europe",57, 1.042 , 8.0 , 39 ,57
+Test711,Lost,"LearnSys,Consumer goods,UK",82, 0.513 , 11.6 , 52 ,54
+Test712,Won,"Finsys,Capital Markets,Other Europe",57, 0.703 , 6.7 , 51 ,64
+Test713,Lost,"LearnSys,Consumer goods,UK",82, 0.333 , 8.0 , 53 ,70
+Test714,Won,"Finsys,Capital Markets,Other Europe",57, 0.834 , 8.5 , 35 ,65
+Test715,Lost,"Finsys,Capital Markets,Other Europe",57, 1.496 , 4.9 , 39 ,67
+Test716,Won,"Procsys,Security,India",44, 0.931 , 11.3 , 46 ,51
+Test717,Won,"Finsys,Capital Markets,Other Europe",57, 0.872 , 9.9 , 45 ,57
+Test718,Lost,"Finsys,Capital Markets,Other Europe",57, 0.955 , 7.7 , 59 ,55
+Test719,Won,"Procsys,Clinical research,UK",70, 0.276 , 10.4 , 50 ,49
+Test720,Won,"Finsys,Capital Markets,Other Europe",57, 0.880 , 10.3 , 22 ,65
+Test721,Lost,"Procsys,Insurance,UK",75, 0.943 , 8.5 , 65 ,73
+Test722,Lost,"Finsys,Capital Markets,Other Europe",57, 0.795 , 5.4 , 46 ,40
+Test723,Lost,"GTMSys,Telecom equipments,Spain",66, 1.218 , 6.7 , 53 ,41
+Test724,Won,"GTMSys,Others,UK",49, 0.930 , 9.2 , 41 ,68
+Test725,Won,"LearnSys,Insurance,UK",74, 0.022 , 9.8 , 39 ,53
+Test726,Won,"Finsys,Capital Markets,Other Europe",57, 0.316 , 10.0 , 51 ,52
+Test727,Lost,"Finsys,Capital Markets,Other Europe",57, 1.259 , 9.5 , 53 ,43
+Test728,Won,"GTMSys,Insurance,UK",58, 1.329 , 10.5 , 26 ,68
+Test729,Lost,"Finsys,Finance,UK",77, 1.942 , 6.3 , 41 ,65
+Test730,Won,"Procsys,Energy,UK",34, 1.168 , 7.9 , 42 ,46
+Test731,Won,"Finsys,Capital Markets,Other Europe",57, 0.475 , 8.2 , 47 ,52
+Test732,Won,"Finsys,Capital Markets,Other Europe",57, 0.595 , 9.3 , 40 ,64
+Test733,Won,"Finsys,Capital Markets,Other Europe",57, 0.798 , 11.4 , 29 ,55
+Test734,Won,"Finsys,Capital Markets,Other Europe",57, 0.570 , 5.9 , 35 ,56
+Test735,Lost,"LearnSys,Consumer goods,UK",82, 0.718 , 9.0 , 58 ,62
+Test736,Won,"GTMSys,Defense,Other Europe",30, 0.950 , 9.1 , 52 ,48
+Test737,Won,"Finsys,Capital Markets,Other Europe",57, 0.935 , 6.1 , 27 ,47
+Test738,Lost,"Procsys,Insurance,UK",75, 1.356 , 11.4 , 61 ,80
+Test739,Lost,"GTMSys,Defense,UK",83, 1.117 , 8.2 , 62 ,55
+Test740,Lost,"GTMSys,Defense,UK",83, 2.469 , 8.2 , 65 ,55
+Test741,Lost,"Finsys,Capital Markets,Other Europe",57, 1.181 , 8.5 , 57 ,50
+Test742,Lost,"Finsys,Finance,UK",77, 0.790 , 8.3 , 38 ,50
+Test743,Lost,"Finsys,Finance,UK",77, 1.143 , 11.3 , 49 ,49
+Test744,Lost,"Finsys,Capital Markets,Other Europe",57, 1.439 , 5.2 , 35 ,55
+Test745,Won,"Finsys,Capital Markets,Other Europe",57, 0.072 , 8.2 , 51 ,61
+Test746,Lost,"Finsys,Capital Markets,Other Europe",57, 1.329 , 8.5 , 37 ,62
+Test747,Lost,"Finsys,Capital Markets,Other Europe",57, 1.098 , 9.6 , 49 ,57
+Test748,Lost,"Logissys,Clinical research,UK",79, 2.446 , 8.0 , 34 ,64
+Test749,Won,"Finsys,Capital Markets,Other Europe",57, 1.052 , 9.4 , 29 ,57
+Test750,Lost,"GTMSys,Health,UK",67, 1.298 , 9.3 , 38 ,63
+Test751,Lost,"Finsys,Consumer goods,UK",54, 1.428 , 7.2 , 55 ,67
+Test752,Lost,"Finsys,Capital Markets,Other Europe",57, 1.955 , 12.0 , 58 ,53
+Test753,Lost,"GTMSys,Others,Other Europe",69, 0.903 , 11.3 , 57 ,46
+Test754,Won,"Finsys,Insurance,UK",31, 0.388 , 9.9 , 34 ,74
+Test755,Lost,"Finsys,Capital Markets,Other Europe",57, 1.563 , 8.6 , 38 ,65
+Test756,Lost,"Finsys,Capital Markets,Other Europe",57, 1.451 , 11.4 , 51 ,59
+Test757,Won,"LearnSys,Banks,Africa",45, 0.512 , 8.2 , 49 ,73
+Test758,Lost,"Finsys,Capital Markets,Other Europe",57, 1.010 , 8.2 , 52 ,54
+Test759,Lost,"Lifesys,Others,Other Europe",64, 0.960 , 7.9 , 65 ,64
+Test760,Lost,"Procsys,Insurance,UK",75, 0.762 , 9.2 , 48 ,50
+Test761,Lost,"Finsys,Capital Markets,Other Europe",57, 1.150 , 11.3 , 56 ,48
+Test762,Lost,"GTMSys,Security,Singapore",73, 1.641 , 6.4 , 36 ,80
+Test763,Lost,"Finsys,Capital Markets,Other Europe",57, 1.637 , 9.1 , 62 ,59
+Test764,Won,"Procsys,Other Govt.,Japan",33, 0.822 , 7.3 , 35 ,47
+Test765,Won,"Finsys,Capital Markets,Other Europe",57, 1.116 , 11.6 , 31 ,56
+Test766,Lost,"Finsys,Capital Markets,Other Europe",57, 1.461 , 7.7 , 53 ,52
+Test767,Won,"Logissys,Clinical research,UK",79, 0.312 , 9.8 , 36 ,74
+Test768,Won,"Finsys,Capital Markets,Other Europe",57, 0.812 , 11.1 , 19 ,62
+Test769,Lost,"Logissys,Clinical research,UK",79, 1.343 , 10.0 , 52 ,62
+Test770,Won,"Finsys,Capital Markets,Other Europe",57, 0.824 , 11.3 , 41 ,64
+Test771,Lost,"Logissys,Clinical research,UK",79, 0.643 , 11.1 , 49 ,60
+Test772,Lost,"Logissys,Clinical research,UK",79, 1.422 , 8.9 , 47 ,31
+Test773,Won,"Finsys,Capital Markets,Other Europe",57, 1.300 , 10.0 , 33 ,52
+Test774,Lost,"Finsys,Capital Markets,UK",60, 0.872 , 8.4 , 53 ,53
+Test775,Won,"GTMSys,Other Govt.,UK",19, 0.020 , 9.1 , 57 ,65
+Test776,Lost,"Finsys,Capital Markets,Other Europe",57, 1.371 , 9.4 , 35 ,42
+Test777,Lost,"Logissys,Clinical research,UK",79, 0.866 , 12.6 , 48 ,50
+Test778,Won,"GTMSys,Defense,Other Europe",30, 0.935 , 10.0 , 30 ,56
+Test779,Lost,"Finsys,Capital Markets,Other Europe",57, 1.732 , 12.7 , 46 ,59
+Test780,Won,"Finsys,Capital Markets,Other Europe",57, 1.207 , 11.0 , 33 ,53
+Test781,Lost,"GTMSys,Other Govt.,Other Europe",72, 1.764 , 11.7 , 38 ,70
+Test782,Lost,"Finsys,Capital Markets,Other Europe",57, 1.163 , 11.8 , 56 ,59
+Test783,Won,"Finsys,Capital Markets,Other Europe",57, 0.865 , 9.8 , 45 ,62
+Test784,Won,"Finsys,Capital Markets,Other Europe",57, 0.613 , 12.1 , 49 ,66
+Test785,Won,"LearnSys,Capital Markets,UK",40, 0.748 , 9.6 , 44 ,53
+Test786,Lost,"LearnSys,Consumer goods,UK",82, 0.166 , 9.0 , 52 ,57
+Test787,Lost,"LearnSys,Consumer goods,UK",82, 1.070 , 11.4 , 42 ,55
+Test788,Lost,"Finsys,Capital Markets,Other Europe",57, 0.968 , 6.0 , 47 ,45
+Test789,Won,"Finsys,Capital Markets,Other Europe",57, 0.220 , 6.5 , 53 ,72
+Test790,Lost,"Finsys,Capital Markets,Other Europe",57, 1.299 , 11.6 , 41 ,71
+Test791,Won,"Finsys,Capital Markets,Other Europe",57, 0.492 , 9.0 , 40 ,100
+Test792,Lost,"Finsys,Capital Markets,Other Europe",57, 0.912 , 10.0 , 57 ,43
+Test793,Lost,"LearnSys,Consumer goods,UK",82, 0.503 , 10.7 , 56 ,57
+Test794,Lost,"Procsys,Insurance,UK",75, 0.831 , 11.5 , 51 ,63
+Test795,Lost,"LearnSys,Consumer goods,UK",82, 1.105 , 8.7 , 44 ,51
+Test796,Lost,"Procsys,Insurance,UK",75, 0.750 , 9.7 , 67 ,61
+Test797,Won,"Finsys,Capital Markets,Other Europe",57, (0.453), 8.3 , 19 ,67
+Test798,Lost,"Finsys,Capital Markets,Other Europe",57, 1.091 , 8.9 , 56 ,52
+Test799,Lost,"Finsys,Capital Markets,Other Europe",57, 1.493 , 8.6 , 54 ,67
+Test800,Lost,"LearnSys,Consumer goods,UK",82, 0.831 , 10.3 , 29 ,51
+Test801,Lost,"LearnSys,Consumer goods,UK",82, 0.605 , 7.3 , 49 ,53
+Test802,Won,"Finsys,Capital Markets,Other Europe",57, 0.659 , 8.2 , 36 ,57
+Test803,Won,"Finsys,Capital Markets,Other Europe",57, 0.717 , 7.2 , 35 ,46
+Test804,Lost,"Finsys,Capital Markets,Other Europe",57, 0.769 , 10.5 , 72 ,74
+Test805,Won,"LearnSys,Capital Markets,UK",40, 0.901 , 7.8 , 50 ,69
+Test806,Won,"Procsys,Insurance,UK",75, 0.003 , 8.1 , 37 ,50
+Test807,Lost,"Finsys,Capital Markets,Other Europe",57, 0.948 , 11.1 , 44 ,45
+Test808,Won,"Procsys,Defense,Americas",22, 0.588 , 6.5 , 60 ,46
+Test809,Won,"Procsys,Defense,Americas",22, 0.700 , 12.4 , 49 ,80
+Test810,Won,"Procsys,Defense,Americas",22, 0.694 , 8.7 , 63 ,72
+Test811,Won,"Finsys,Capital Markets,Other Europe",57, 1.033 , 7.6 , 38 ,62
+Test812,Won,"LearnSys,Banks,Africa",45, 1.126 , 10.9 , 44 ,65
+Test813,Lost,"GTMSys,Banks,Africa",52, 1.626 , 5.7 , 54 ,60
+Test814,Lost,"LearnSys,Energy,UK",42, 2.112 , 9.5 , 46 ,63
+Test815,Lost,"Finsys,Capital Markets,Other Europe",57, 0.323 , 6.9 , 63 ,52
+Test816,Won,"GTMSys,Others,Other Europe",69, 0.205 , 10.3 , 43 ,33
+Test817,Lost,"GTMSys,Defense,UK",83, 1.054 , 10.2 , 32 ,58
+Test818,Lost,"GTMSys,Defense,UK",83, 1.251 , 7.4 , 48 ,55
+Test819,Lost,"Procsys,Insurance,UK",75, 1.742 , 10.9 , 64 ,48
+Test820,Lost,"GTMSys,Others,Americas",38, 1.169 , 11.9 , 57 ,57
+Test821,Won,"Finsys,Capital Markets,Other Europe",57, 0.577 , 9.7 , 42 ,67
+Test822,Lost,"LearnSys,Consumer goods,UK",82, 1.732 , 7.0 , 52 ,64
+Test823,Lost,"Procsys,Insurance,UK",75, 0.622 , 9.0 , 50 ,48
+Test824,Lost,"GTMSys,Defense,UK",83, 1.054 , 7.3 , 43 ,64
+Test825,Won,"GTMSys,Clinical research,UK",23, 0.928 , 6.6 , 48 ,80
+Test826,Won,"Finsys,Capital Markets,Other Europe",57, 0.608 , 4.8 , 35 ,80
+Test827,Lost,"LearnSys,Consumer goods,UK",82, 0.892 , 8.3 , 33 ,70
+Test828,Won,"Finsys,Capital Markets,Other Europe",57, 0.368 , 8.5 , 32 ,46
+Test829,Won,"Finsys,Insurance,UK",31, 0.701 , 9.8 , 43 ,63
+Test830,Lost,"Finsys,Capital Markets,Other Europe",57, 2.112 , 12.4 , 39 ,54
+Test831,Won,"Finsys,Infrastructure,UK",62, 0.622 , 8.5 , 26 ,59
+Test832,Lost,"GTMSys,Defense,UK",83, 1.586 , 12.2 , 62 ,53
+Test833,Won,"GTMSys,Defense,UK",83, 0.274 , 8.0 , 43 ,64
+Test834,Won,"Finsys,Capital Markets,Other Europe",57, 1.010 , 7.3 , 33 ,56
+Test835,Lost,"GTMSys,Banks,Africa",52, 0.989 , 11.9 , 51 ,71
+Test836,Won,"Finsys,Capital Markets,Other Europe",57, 0.595 , 8.3 , 46 ,61
+Test837,Lost,"Finsys,Capital Markets,Other Europe",57, 1.352 , 7.9 , 49 ,48
+Test838,Lost,"Finsys,Capital Markets,Other Europe",57, 1.955 , 7.6 , 48 ,73
+Test839,Lost,"Procsys,Security,UK",76, 0.921 , 6.6 , 34 ,64
+Test840,Lost,"Finsys,Infrastructure,UK",62, 1.400 , 10.7 , 52 ,73
+Test841,Won,"Finsys,Infrastructure,UK",62, 0.746 , 6.0 , 53 ,69
+Test842,Lost,"Finsys,Capital Markets,Other Europe",57, 1.158 , 8.8 , 45 ,44
+Test843,Won,"Finsys,Capital Markets,Other Europe",57, (0.008), 6.4 , 43 ,55
+Test844,Lost,"GTMSys,Defense,Other Europe",30, 1.346 , 9.2 , 50 ,47
+Test845,Won,"Finsys,Capital Markets,Other Europe",57, 0.845 , 5.9 , 45 ,72
+Test846,Lost,"GTMSys,Security,Singapore",73, 1.511 , 9.3 , 54 ,64
+Test847,Lost,"Finsys,Capital Markets,Other Europe",57, 1.359 , 11.0 , 34 ,58
+Test848,Lost,"GTMSys,Finance,UK",55, 1.955 , 5.2 , 55 ,80
+Test849,Lost,"GTMSys,Finance,UK",55, 1.766 , 9.1 , 42 ,51
+Test850,Lost,"LearnSys,Consumer goods,UK",82, 0.304 , 9.6 , 50 ,60
+Test851,Lost,"Finsys,Finance,UK",77, 1.249 , 9.0 , 33 ,61
+Test852,Won,"GTMSys,Finance,UK",55, 0.406 , 10.2 , 49 ,57
+Test853,Lost,"GTMSys,Finance,UK",55, 1.340 , 3.7 , 58 ,58
+Test854,Lost,"GTMSys,Defense,UK",83, 1.798 , 9.6 , 41 ,71
+Test855,Lost,"GTMSys,Finance,UK",55, 0.824 , 8.8 , 47 ,57
+Test856,Won,"GTMSys,Finance,UK",55, 0.487 , 9.3 , 39 ,47
+Test857,Lost,"GTMSys,Defense,Americas",50, 1.097 , 10.9 , 52 ,58
+Test858,Lost,"Procsys,Insurance,UK",75, 1.266 , 9.4 , 54 ,51
+Test859,Won,"GTMSys,Clinical research,UK",23, 0.608 , 8.3 , 45 ,47
+Test860,Lost,"GTMSys,Finance,UK",55, 1.243 , 13.2 , 53 ,60
+Test861,Won,"GTMSys,Clinical research,UK",23, 1.548 , 13.4 , 33 ,67
+Test862,Won,"Procsys,Clinical research,UK",70, 0.646 , 8.0 , 41 ,62
+Test863,Lost,"GTMSys,Finance,UK",55, 2.112 , 13.4 , 52 ,47
+Test864,Lost,"GTMSys,Finance,UK",55, 0.583 , 9.5 , 52 ,45
+Test865,Lost,"GTMSys,Finance,UK",55, 1.167 , 9.7 , 50 ,54
+Test866,Lost,"GTMSys,Finance,UK",55, 2.112 , 7.5 , 46 ,46
+Test867,Won,"GTMSys,Finance,UK",55, 0.622 , 8.4 , 41 ,62
+Test868,Lost,"GTMSys,Defense,UK",83, 1.693 , 12.2 , 46 ,73
+Test869,Lost,"GTMSys,Defense,UK",83, 1.432 , 10.1 , 56 ,44
+Test870,Lost,"GTMSys,Defense,UK",83, 0.765 , 9.7 , 40 ,80
+Test871,Lost,"GTMSys,Defense,UK",83, 1.081 , 8.8 , 39 ,63
+Test872,Won,"Procsys,Insurance,UK",75, 0.580 , 10.6 , 32 ,54
+Test873,Lost,"GTMSys,Banks,Americas",43, 1.751 , 7.1 , 31 ,55
+Test874,Won,"Procsys,Capital Markets,UK",71, 1.069 , 4.5 , 25 ,56
+Test875,Lost,"GTMSys,Finance,UK",55, 2.112 , 11.3 , 54 ,63
+Test876,Lost,"GTMSys,Finance,UK",55, 1.467 , 8.8 , 47 ,53
+Test877,Lost,"GTMSys,Defense,UK",83, 1.213 , 9.0 , 49 ,55
+Test878,Won,"GTMSys,Finance,UK",55, 0.595 , 11.9 , 40 ,70
+Test879,Lost,"GTMSys,Defense,UK",83, 1.581 , 7.7 , 50 ,46
+Test880,Lost,"LearnSys,Consumer goods,UK",82, 1.146 , 7.5 , 43 ,68
+Test881,Lost,"GTMSys,Other Govt.,Other Europe",72, 1.010 , 7.4 , 45 ,59
+Test882,Won,"GTMSys,Capital Markets,UK",48, 1.109 , 13.2 , 38 ,60
+Test883,Won,"GTMSys,Finance,UK",55, 0.169 , 6.2 , 56 ,73
+Test884,Won,"GTMSys,Defense,UK",83, (0.210), 7.5 , 58 ,59
+Test885,Lost,"GTMSys,Finance,UK",55, 1.506 , 10.2 , 44 ,57
+Test886,Lost,"GTMSys,Finance,UK",55, 1.757 , 10.9 , 53 ,53
+Test887,Lost,"Procsys,Insurance,UK",75, 0.858 , 10.7 , 44 ,80
+Test888,Lost,"GTMSys,Defense,UK",83, 0.630 , 13.5 , 48 ,46
+Test889,Won,"Procsys,Capital Markets,UK",71, 0.408 , 10.9 , 45 ,58
+Test890,Won,"GTMSys,Telecom equipments,Spain",66, 0.606 , 7.4 , 44 ,65
+Test891,Lost,"Finsys,Finance,UK",77, 1.648 , 6.3 , 43 ,68
+Test892,Won,"GTMSys,Finance,UK",55, (0.215), 6.2 , 28 ,70
+Test893,Lost,"Procsys,Security,UK",76, 0.879 , 7.5 , 42 ,70
+Test894,Lost,"GTMSys,Finance,UK",55, 0.896 , 9.7 , 49 ,53
+Test895,Lost,"GTMSys,Security,Singapore",73, 1.504 , 7.0 , 55 ,58
+Test896,Won,"GTMSys,Others,Africa",39, 1.057 , 10.4 , 22 ,57
+Test897,Lost,"Finsys,Finance,UK",77, 1.452 , 8.2 , 47 ,53
+Test898,Lost,"Finsys,Insurance,UK",31, 1.163 , 10.6 , 64 ,67
+Test899,Lost,"GTMSys,Telecom equipments,Spain",66, 0.854 , 9.4 , 60 ,61
+Test900,Lost,"GTMSys,Telecom equipments,Spain",66, 1.690 , 9.3 , 56 ,57
+Test901,Lost,"GTMSys,Telecom equipments,Spain",66, 1.250 , 6.8 , 50 ,73
+Test902,Won,"GTMSys,Finance,UK",55, 0.713 , 7.1 , 47 ,51
+Test903,Lost,"GTMSys,Telecom equipments,Spain",66, 1.344 , 9.8 , 44 ,63
+Test904,Lost,"GTMSys,Telecom equipments,Spain",66, 0.989 , 10.8 , 52 ,54
+Test905,Won,"GTMSys,Defense,Other Europe",30, 0.886 , 5.8 , 38 ,61
+Test906,Lost,"Procsys,Insurance,UK",75, 0.836 , 6.4 , 68 ,70
+Test907,Won,"GTMSys,Finance,UK",55, 0.706 , 7.6 , 56 ,100
+Test908,Lost,"Procsys,Insurance,UK",75, 0.565 , 7.0 , 45 ,56
+Test909,Lost,"Procsys,Security,UK",76, 1.098 , 8.7 , 48 ,54
+Test910,Lost,"LearnSys,Consumer goods,UK",82, 0.701 , 6.4 , 48 ,80
+Test911,Lost,"GTMSys,Defense,UK",83, 1.418 , 7.6 , 44 ,52
+Test912,Won,"GTMSys,Finance,UK",55, 0.595 , 11.1 , 39 ,55
+Test913,Won,"GTMSys,Banks,Singapore",65, 0.267 , 11.4 , 50 ,71
+Test914,Won,"Procsys,White goods,UK",15, 0.541 , 10.0 , 38 ,68
+Test915,Won,"Procsys,White goods,UK",15, 0.586 , 12.4 , 60 ,57
+Test916,Won,"Finsys,Finance,UK",77, 0.891 , 9.7 , 31 ,74
+Test917,Lost,"Procsys,Insurance,UK",75, 0.780 , 8.1 , 51 ,61
+Test918,Lost,"GTMSys,Finance,UK",55, 1.089 , 10.0 , 45 ,70
+Test919,Lost,"GTMSys,Finance,UK",55, 1.732 , 4.9 , 62 ,48
+Test920,Won,"ContactSys,Banks,UK",59, 0.907 , 11.1 , 35 ,71
+Test921,Lost,"ContactSys,Banks,UK",59, 1.093 , 10.1 , 39 ,60
+Test922,Won,"Procsys,Insurance,UK",75, 0.410 , 8.7 , 48 ,53
+Test923,Lost,"LearnSys,Insurance,UK",74, 1.043 , 6.4 , 40 ,48
+Test924,Lost,"GTMSys,Finance,UK",55, 1.520 , 9.7 , 69 ,54
+Test925,Lost,"GTMSys,Banks,Americas",43, 1.882 , 10.4 , 59 ,51
+Test926,Lost,"GTMSys,Defense,UK",83, 0.961 , 11.8 , 66 ,57
+Test927,Lost,"LearnSys,Consumer goods,UK",82, 1.172 , 7.7 , 35 ,66
+Test928,Lost,"GTMSys,Defense,UK",83, 1.748 , 5.9 , 55 ,62
+Test929,Lost,"GTMSys,Finance,UK",55, 1.023 , 12.6 , 49 ,51
+Test930,Lost,"GTMSys,Finance,UK",55, 0.940 , 6.0 , 52 ,65
+Test931,Won,"GTMSys,Finance,UK",55, 0.913 , 13.5 , 52 ,71
+Test932,Lost,"GTMSys,Finance,UK",55, 1.347 , 6.5 , 50 ,59
+Test933,Won,"GTMSys,Clinical research,UK",23, 0.775 , 9.9 , 50 ,58
+Test934,Won,"Procsys,Consumer goods,UK",53, 0.660 , 10.1 , 59 ,69
+Test935,Won,"Procsys,Mobility,Canada",29, 1.225 , 7.2 , 47 ,65
+Test936,Lost,"Procsys,Insurance,UK",75, 1.167 , 11.4 , 64 ,62
+Test937,Lost,"GTMSys,Finance,UK",55, 1.090 , 8.0 , 55 ,50
+Test938,Won,"Finsys,Finance,UK",77, (0.032), 10.8 , 47 ,53
+Test939,Won,"LearnSys,Insurance,UK",74, 0.580 , 11.0 , 33 ,68
+Test940,Won,"Finsys,Insurance,UK",31, 0.655 , 11.5 , 35 ,43
+Test941,Lost,"Lifesys,Others,Other Europe",64, 1.651 , 9.1 , 48 ,51
+Test942,Won,"GTMSys,Finance,UK",55, 1.164 , 11.2 , 36 ,80
+Test943,Won,"GTMSys,Capital Markets,UK",48, 1.414 , 9.6 , 32 ,54
+Test944,Lost,"LearnSys,Insurance,UK",74, 1.509 , 12.1 , 44 ,65
+Test945,Lost,"GTMSys,Finance,UK",55, 1.225 , 6.8 , 58 ,52
+Test946,Lost,"Procsys,Insurance,UK",75, 1.111 , 7.2 , 51 ,72
+Test947,Lost,"LearnSys,Consumer goods,UK",82, 0.985 , 6.2 , 45 ,56
+Test948,Lost,"Logissys,Clinical research,UK",79, 1.237 , 5.8 , 38 ,67
+Test949,Won,"Procsys,Consumer goods,UK",53, 0.272 , 6.4 , 36 ,68
+Test950,Lost,"GTMSys,Defense,UK",83, 0.958 , 5.7 , 46 ,73
+Test951,Lost,"GTMSys,Airline,UK",56, 0.980 , 8.2 , 55 ,62
+Test952,Won,"Procsys,White goods,UK",15, 1.077 , 8.0 , 51 ,80
+Test953,Lost,"LearnSys,Consumer goods,UK",82, 1.780 , 2.3 , 43 ,67
+Test954,Lost,"Finsys,Finance,UK",77, 1.122 , 10.0 , 40 ,47
+Test955,Lost,"Procsys,Insurance,UK",75, 0.688 , 8.1 , 44 ,68
+Test956,Lost,"Procsys,Insurance,UK",75, 0.805 , 3.8 , 54 ,71
+Test957,Lost,"Procsys,Insurance,UK",75, 1.733 , 10.5 , 61 ,67
+Test958,Lost,"Procsys,Insurance,UK",75, 0.758 , 7.7 , 43 ,71
+Test959,Won,"GTMSys,Others,Americas",38, 0.779 , 11.7 , 48 ,74
+Test960,Lost,"GTMSys,Security,Singapore",73, 1.313 , 9.2 , 29 ,64
+Test961,Won,"Finsys,Others,Other Europe",18, 1.453 , 7.3 , 41 ,73
+Test962,Won,"GTMSys,Banks,Americas",43, 0.673 , 7.7 , 59 ,60
+Test963,Lost,"GTMSys,Security,Singapore",73, 1.743 , 8.6 , 42 ,63
+Test964,Won,"GTMSys,Finance,UK",55, 0.538 , 5.6 , 43 ,57
+Test965,Lost,"LearnSys,Insurance,UK",74, 1.512 , 10.5 , 46 ,73
+Test966,Lost,"GTMSys,Finance,UK",55, 0.931 , 8.7 , 50 ,34
+Test967,Lost,"GTMSys,Finance,UK",55, 1.955 , 8.5 , 57 ,49
+Test968,Won,"GTMSys,Finance,UK",55, 0.204 , 8.1 , 41 ,48
+Test969,Won,"Finsys,Consumer goods,UK",54, 0.365 , 10.1 , 33 ,54
+Test970,Lost,"GTMSys,Banks,Americas",43, 1.579 , 10.6 , 42 ,56
+Test971,Won,"GTMSys,Banks,Americas",43, 1.632 , 5.5 , 42 ,80
+Test972,Won,"Finsys,Infrastructure,UK",62, 0.271 , 9.7 , 38 ,57
+Test973,Lost,"Lifesys,Consumer goods,UK",46, 0.905 , 11.1 , 65 ,70
+Test974,Won,"Lifesys,Consumer goods,UK",46, 1.375 , 9.0 , 24 ,80
+Test975,Lost,"GTMSys,Defense,UK",83, 0.894 , 8.5 , 50 ,62
+Test976,Lost,"GTMSys,Other Govt.,Other Europe",72, 1.010 , 12.1 , 44 ,66
+Test977,Won,"GTMSys,Banks,Americas",43, 0.911 , 6.2 , 45 ,49
+Test978,Lost,"GTMSys,Banks,Americas",43, 1.616 , 6.9 , 54 ,44
+Test979,Won,"GTMSys,Banks,Americas",43, 0.764 , 9.6 , 57 ,70
+Test980,Lost,"GTMSys,Defense,UK",83, 0.765 , 9.7 , 43 ,72
+Test981,Lost,"GTMSys,Banks,Americas",43, 1.739 , 4.3 , 39 ,65
+Test982,Lost,"GTMSys,Defense,UK",83, 1.202 , 8.2 , 49 ,54
+Test983,Won,"GTMSys,Banks,Americas",43, 1.166 , 8.9 , 39 ,67
+Test984,Lost,"GTMSys,Banks,Americas",43, 0.666 , 11.8 , 73 ,53
+Test985,Won,"GTMSys,Banks,Americas",43, 1.405 , 8.7 , 42 ,59
+Test986,Won,"GTMSys,Banks,Americas",43, 0.861 , 12.4 , 42 ,60
+Test987,Won,"GTMSys,Banks,Americas",43, 0.385 , 9.0 , 64 ,73
+Test988,Lost,"GTMSys,Defense,UK",83, 0.773 , 11.9 , 47 ,58
+Test989,Lost,"Finsys,Finance,UK",77, 1.015 , 9.3 , 47 ,57
+Test990,Lost,"Finsys,Finance,UK",77, 0.668 , 11.8 , 43 ,65
+Test991,Won,"GTMSys,Clinical research,UK",23, 0.671 , 10.3 , 48 ,71
+Test992,Lost,"Procsys,Security,Americas",68, 1.287 , 8.9 , 69 ,63
+Test993,Lost,"Finsys,Infrastructure,UK",62, 1.276 , 10.2 , 40 ,60
+Test994,Won,"GTMSys,Banks,Americas",43, 1.412 , 10.6 , 34 ,63
+Test995,Lost,"Logissys,Clinical research,UK",79, 1.621 , 10.1 , 30 ,56
+Test996,Won,"GTMSys,Banks,Americas",43, 0.904 , 8.4 , 47 ,52
+Test997,Won,"Lifesys,Consumer goods,UK",46, 1.247 , 8.0 , 44 ,80
+Test998,Lost,"Logissys,Clinical research,UK",79, 1.236 , 7.4 , 60 ,59
+Test999,Won,"GTMSys,Banks,Americas",43, 0.707 , 10.6 , 46 ,58
+Test1000,Won,"GTMSys,Banks,Americas",43, 0.973 , 10.0 , 30 ,69
