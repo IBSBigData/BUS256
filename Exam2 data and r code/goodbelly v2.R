@@ -1,4 +1,4 @@
-# Goodbelly analysis
+# Goodbelly analysis for Exam 2
 library(car)
 library(corrplot)
 library(corrgram)
