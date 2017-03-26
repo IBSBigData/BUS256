@@ -28,10 +28,8 @@ model <- (Units.Sold ~ Average.Retail.Price + Sales.Rep +
      Sales.Rep * Endcap +Sales.Rep * Demo + 
      Sales.Rep * Demo1.3 + Sales.Rep*Average.Retail.Price)
 
-library(MASS) # functions featured in textbook "Modern Applied Statistics with S"
-
-fit <- lm(model, data=train)
-summary(fit)
+fit <- lm(model, data=train)  # estimate the model
+summary(fit)   # report regression results
 
 # finally use the fitted model with the holdout data to judge performance
 testfit <- predict(fit,newdata = test)
