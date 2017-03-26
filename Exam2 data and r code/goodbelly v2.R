@@ -3,9 +3,9 @@ library(car)
 library(corrplot)
 library(corrgram)
 
-gb <- read.csv("Data/Goodbelly data.csv", header = TRUE)
-str(gb)
-gb <- read.csv("Data/Goodbelly data.csv", header = TRUE)[,1:12]
+# "goodbelly.csv" has been saved with just the 12 columns we need. 
+gb <- read.csv("Data/goodbelly.csv", header = TRUE)
+
 
 # split into training and test sets before exploration
 
