@@ -31,12 +31,10 @@ model <- (Units.Sold ~ Average.Retail.Price + Sales.Rep +
 library(MASS) # functions featured in textbook "Modern Applied Statistics with S"
 
 fit <- lm(model, data=train)
-step <- stepAIC(fit, direction = "both")
-summary(step)
-step$anova
+summary(fit)
 
 # finally use the fitted model with the holdout data to judge performance
-testfit <- predict(step,newdata = test)
+testfit <- predict(fit,newdata = test)
 # adjust figure margins for graph
 par(mar=c(1,1,1,1)) # set margin parameters
 
